@@ -46,34 +46,56 @@
 									
 								<li>
 									<h3>ML POTENTIALS</h3>
-									<p><b>Neural networks potentials for materials and chemical reactions</b></p>
-									<p><span class="image left" style="width:30%"><img src="images/research/chem2020.png" alt="" /></span>The development of the machines learning potentials for phase transitions and reactive events is challenging due to the difficulty of including all relevant configurations in the training set. Using enhanced sampling techniques such as Metadynamics and multithermal-multibaric simulations we were able to expand the region of the potential energy surface covered by the reference configurations and thus to develop reliable neural networks potentials. This allowed us to perform <i>ab-initio</i> simulations of complex processes such as silicon crystallization [1], gallium nucleation and its phase diagram [2] and urea decomposition in water [3], which would otherwise be prohibitively expensive.</p>
+									<p><b>Machine learning potentials for rare events</b></p>
+									<p><span class="image left" style="width:30%"><img src="images/research/chem2020.png" alt="" /></span>The construction of ML interatomic potentials for phase transitions and chemical reactions is challenging due to the difficulty of including all relevant configurations in the training set. By integrating enhanced sampling techniques into active learning strategies we are able obtain reliable and robust machine learning potentials. This enables ab initio-quality simulations of rare events which would otherwise be prohibitively expensive, ranging from crystallization [1] to phase diagrams [2] and from chemical reactions in solvent [3] to heterogeneous catalysis [4] and to phase-change materials [5].</p>
 									<p>
+										
 										[1] <a href="https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.121.265701"><em>Physical Review Letters</em> <b2>(2018)</b2>, 121, 265701</a><br>
 										[2] <a href="https://www.nature.com/articles/s41467-020-16372-9"><em>Nature Communications </em> <b2>(2020)</b2>, 11, 2654 </a><br>
-										[3] <a href="https://arxiv.org/abs/2011.11455"><em>	arXiv:2011.11455</em> <b2>(2020)</b2></a><br>
+										[3] <a href="https://doi.org/10.1016/j.cattod.2021.03.018"><em>	Catalysis Today</em> <b2>(2022)</b2></a><br>
+										[4] <a href="https://doi.org/10.1073/pnas.2313023120"><em>	PNAS</em> <b2>(2023)</b2></a><br>
+										[5] <a href="https://doi.org/10.1038/s41524-024-01217-6"><em>	npj Computational Materials </em> <b2>(2024)</b2></a><br>
 									</p>
 
+									<p><b>Data-efficient machine learning potentials via active and transfer learning</b></p>
+									<p><span class="image left" style="width:30%"><img src="images/research/npj2024.png" alt="" /></span>To make the machine learning potentials routinely applicable and to model processes in more realistic conditions and with higher levels of electronic theory, it is essential to have data-efficient techniques. To this end, I have devised a framework that integrates advanced sampling with Gaussian processes and graph neural networks to construct reactive potentials in a highly efficient manner [1]. This data-efficient active learning (DEAL) scheme enables an ab initio-quality discovery of transition paths and ensures uniform accuracy along them, with a 20-fold increase in data-efficiency with respect to previous approaches. Furthermore, we are also developing transfer learning approaches to extract the representation learned from graph neural networks trained on large datasets and transfer them to new systems via kernel methods, enabling high (computational and data) efficiency [2].</p>
+									<p>
+										
+										[1] <a href="https://doi.org/10.1038/s41524-024-01481-6"><em> npj Computational Materials </em> <b2>(2024)</b2></a><br>
+										[2] <a href="https://proceedings.neurips.cc/paper_files/paper/2023/file/5f02c76bc411a6f7c9a8bb2cbf981260-Paper-Conference.pdf"><em>Neurips </em> <b2>(2023)</b2></a><br>
+									</p>
+									
 								</li>
 								<li>
 									<h3>ENHANCED SAMPLING</h3>
+
+									<p><b>Data-driven identification of collective variables for enhanced sampling</b></p>
+									<p><span class="image left" style="width:30%"><img src="images/research/jpcl2020.png" alt="" /></span>A key challenge in enhanced sampling simulations is identifying collective variables (CVs) able to efficiently explore rare events. I developed data-driven approaches that automate this process using machine learning techniques. Notably, I proposed a method to build CVs from metastable states alone via neural networks optimized with Fisher’s discriminant [1] and a deep learning framework to extract slow modes from biased simulations, improving rare-event sampling in diverse applications [2]. Recent advances include a descriptor-free approach leveraging geometric graph neural networks for symmetry-invariant CVs [3] and a multitask approach that can learn CVs from transition path sampling simulations while simultaneously optimizing shooting efficiency [4]. All these techniques are implemented in mlcolvar, a Python library I developed which integrates machine learning-based CVs into enhanced sampling workflows [5].</p>
+									<p>
+										[1] <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.0c00535"><em>JPCL</em> <b2>(2020)</b2>, 11, 8</a><br>
+										[2] <a href="https://doi.org/10.1073/pnas.2113533118"><em>PNAS</em> <b2>(2021)</b2></a><br>
+										[3] <a href="https://doi.org/10.1021/acs.jctc.4c01197"><em></em> JCTC<b2>(2024)</b2></a><br>
+										[4] <a href="https://doi.org/10.1021/acs.jctc.4c0042"><em>JCTC</em> <b2>(2024)</b2></a><br>
+										[5] <a href="https://doi.org/10.1063/5.0156343"><em>JCP</em><b2>(2023)</b2></a><br>
+									</p>
+								
 									<p><b>Improve enhanced sampling methods with machine learning techniques</b></p>
 									<p><span class="image left" style="width:30%"><img src="images/research/pnas2019.png" alt="" /></span>A popular strategy to overcome kinetic bottlenecks in atomistic simulations is to identify a number of key collective variables and to introduce an external bias potential that is able to accelerate sampling by favoring their fluctuations.
 I developed a variant of the variationally enhanced sampling method, in which the bias potential is represented as a neural network [1]. The bias is optimized on-the-fly with a reinforcement learning-like scheme, which minimizes the Kullback-Leibler divergence between the sampled and the target distribution. Using a neural network rather than a linear basis expansion allows to better represent represent complex free-energy surfaces and to handle several collective variables.</p>
 									<p>
 										[1] <a href=""><em>Proceedings of the National Academy of Sciences</em> <b2>(2019)</b2>, 116 (36)</a><br>
-										<i class="fa fa-github-alt fa-lg"></i>  <a href="https://github.com/luigibonati/deep-ves-data" target="_blank"><span class="label">GitHub repository</span></a>
 									</p>
 								</li>
 								<li>
-									<h3>COLLECTIVE VARIABLES</h3>
-									<p><b>Data-driven identification of collective variables for enhanced sampling</b></p>
-									<p><span class="image left" style="width:30%"><img src="images/research/jpcl2020.png" alt="" /></span>Fundamental to the success of several enhanced sampling methods is the identification of adequate collective variables, whose fluctuations should be related to all slow degrees of freedom of the rare event of interest. To facilitate their design in case of complex systems, I have developed a data-driven approach that builds these variables from the knowledge of metastable states alone [1]. Here a neural network provides a non-linear featurization of the possibly many inputs into a reduced latent space, where a classification technique is used to obtain the collective variables. This method has been successfully employed also for the calculation of ligand binding free energies, where the analysis of the relevance of the input descriptors helped to clarify the role played by water in the binding process [2]. A synthetic communication is available here [3].</p>
+									<h3>CATALYSIS</h3>
+
+									<p><b>Unveiling the role of dynamics in catalytic processes</b></p>
+									<p><span class="image left" style="width:40%"><img src="images/research/pnas2023.png" alt="" /></span>The role of atomic-scale dynamics in heterogeneous catalysis remains poorly understood, especially under operando conditions. In order to study how dynamic effects affect catalytic reactivity, I combined enhanced sampling with machine learning to learn not only the interatomic potentials but also other electronic properties such as the charge transfer, which is an important driving force behind many catalytic processes. We have shown that the dissociative chemisorption of nitrogen on iron, a key step in the Haber–Bosch process, is strongly affected by surface fluctuations at high temperatures, challenging the conventional static picture of catalytic sites [1]. Further studies revealed that adsorbed nitrogen species do not poison the catalyst but instead promote dynamic restructuring, which mitigates deactivation [2]. We also applied these methods to study the mechanism of ammonia decomposition [3], showing how competition with nitrogen migration within the material affects catalytic efficiency (\href[4], within the research network Ammoref. These findings highlight the crucial role of dynamics and open the way for more accurate and predictive models of industrial catalysis. </p>
 									<p>
-										[1] <a href="https://pubs.acs.org/doi/10.1021/acs.jpclett.0c00535"><em> Journal of Physical Chemistry Letters</em> <b2>(2020)</b2>, 11, 8</a><br>
-										[2] <a href="https://www.nature.com/articles/s41467-020-20310-0"><em>Nature Communications </em> <b2>(2021)</b2>, 12, 93 </a><br>
-										[3] <a href="https://arxiv.org/abs/2101.07085"><em>arXiv:2101.07085</em> <b2>(2021)</b2></a><br>
-										<i class="fa fa-github-alt fa-lg"></i>  <a href="https://github.com/luigibonati/data-driven-CVs" target="_blank"><span class="label">GitHub repository</span></a>
+										[1] <a href="https://doi.org/10.1073/pnas.2313023120"><em> PNAS</em> <b2>(2023)</b2></a><br>
+										[2] <a href="https://doi.org/10.1021/acscatal.3c06201"><em>ACS Catalysis</em> <b2>(2024)</b2> </a><br>
+										[3] <a href="https://doi.org/10.1021/acscatal.4c01920"><em>ACS Catalysis</em> <b2>(2024)</b2> </a><br>
+										[4] <a href="https://doi.org/10.1021/acscatal.4c04415"><em>ACS Catalysis</em> <b2>(2024)</b2> </a><br>
 									</p>
 								</li>
 							</ul>
@@ -84,7 +106,7 @@ I developed a variant of the variationally enhanced sampling method, in which th
 				<!-- Copyright -->
 					<section class="wrapper style2 copyright">
 						<div class="inner">
-							&copy; Luigi Bonati 2021
+							&copy; Luigi Bonati 2021-now
 						</div>
 					</section>
 
