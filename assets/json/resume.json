@@ -26,11 +26,11 @@
 
   "education": [
     {
-      "institution": "ETH Zurich",
+      "institution": "Physics, ETH Zurich",
       "location": "Zurich, Switzerland",
       "url": "",
-      "area": "Integration of machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology.",
-      "studyType": "PhD in Physics",
+      "area": "",
+      "studyType": "Ph.D.",
       "startDate": "2018-01-01",
       "endDate": "2021-09-01",
       "score": "",
@@ -41,18 +41,18 @@
       ]
     },
     {
-      "institution": "University of Milan",
+      "institution": "Physics, University of Milan",
       "location": "Milan, Italy",
       "url": "",
       "area": "",
-      "studyType": "M.Sc. Physics",
+      "studyType": "M.Sc.",
       "startDate": "2015-10-01",
       "endDate": "2017-11-01",
       "score": "110/110 cum laude",
-      "courses": ["Score: 110/110 cum laude"]
+      "courses": []
     },
     {
-      "institution": "University of Milan",
+      "institution": "Physics, University of Milan",
       "location": "Milan, Italy",
       "url": "",
       "area": "",
@@ -60,7 +60,7 @@
       "startDate": "2011-10-01",
       "endDate": "2015-02-01",
       "score": "110/110 cum laude",
-      "courses": ["Score: 110/110 cum laude"]
+      "courses": []
     }
   ],
 
@@ -70,28 +70,28 @@
       "date": "2024",
       "awarder": "International Congress of Catalysis.",
       "url": "https://www.icc-lyon2024.fr/en/committees/young-scientists-committee/12",
-      "summary": "For the contribution presented at the International Congress of Catalysis, Lyon, France."
+      "summary": ""
     },
     {
       "title": "IACS Young Scientists Award",
       "date": "2024",
       "awarder": "The International Association of Catalysis Societies.",
       "url": "https://iacs-catalysis.org/?page_id=261",
-      "summary": "Travel award for the International Congress of Catalysis."
+      "summary": ""
     },
     {
       "title": "Italian Innovation in Switzerland Award",
       "date": "2023",
-      "awarder": "Comites Zurich.",
+      "awarder": "Comites Zurich, Doctoral thesis award.",
       "url": "https://www.comiteszurigo.ch/single-post/premio-innovazione-italiana-in-svizzera-3-edizione",
-      "summary": "Doctoral thesis award."
+      "summary": ""
     },
     {
       "title": "ETH Silver Medal for outstanding doctoral thesis",
       "date": "2022",
       "awarder": "ETH Zurich.",
       "url": "https://ethz.ch/en/the-eth-zurich/education/awards/eth-medal.html",
-      "summary": "Silver Medal for outstanding doctoral thesis, ETH Zurich, Switzerland."
+      "summary": ""
     }
   ],
 
