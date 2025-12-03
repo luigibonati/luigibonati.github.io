@@ -446,6 +446,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/9_project/";
+            },},{id: "projects-data-driven-collective-variables-for-enhanced-sampling",
+          title: 'Data-driven collective variables for enhanced sampling',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/project-1/";
             },},{
         id: 'social-cv',
         title: 'CV',
