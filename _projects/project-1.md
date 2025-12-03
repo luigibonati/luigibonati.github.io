@@ -24,5 +24,3 @@ A key challenge in enhanced sampling simulations is identifying collective varia
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
 </div>
-
-{% endraw %}
