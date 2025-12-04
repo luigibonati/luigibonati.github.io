@@ -403,7 +403,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-the-role-of-dynamics-in-catalysis",
           title: 'The role of dynamics in catalysis',
-          description: "Using machine learning and enhanced sampling to unveil the role of dynamics",
+          description: "Combining ML and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/cat/";
             },},{id: "projects-data-driven-collective-variables",
@@ -413,7 +413,7 @@ ninja.data = [{
               window.location.href = "/al-folio/projects/cvs/";
             },},{id: "projects-machine-learning-potentials",
           title: 'Machine learning potentials',
-          description: "For rare and reactive events",
+          description: "Accelerating active learning with enhanced sampling to study rare events",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/mlp/";
             },},{id: "projects-machine-learning-bias-potentials",
