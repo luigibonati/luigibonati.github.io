@@ -446,11 +446,26 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/9_project/";
-            },},{id: "projects-data-driven-collective-variables-for-enhanced-sampling",
-          title: 'Data-driven collective variables for enhanced sampling',
-          description: "with background image",
+            },},{id: "projects-the-role-of-dynamics-in-catalysis",
+          title: 'The role of dynamics in catalysis',
+          description: "Using machine learning and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/project-1/";
+              window.location.href = "/al-folio/projects/cat/";
+            },},{id: "projects-data-driven-collective-variables",
+          title: 'Data-driven collective variables',
+          description: "Using machine learning to discover CVs for enhanced sampling",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/cvs/";
+            },},{id: "projects-machine-learning-potentials",
+          title: 'Machine learning potentials',
+          description: "For rare and reactive events",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/mlp/";
+            },},{id: "projects-machine-learning-bias-potentials",
+          title: 'Machine learning bias potentials',
+          description: "Neural network-based variationally enhanced sampling",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/ves/";
             },},{
         id: 'social-cv',
         title: 'CV',
