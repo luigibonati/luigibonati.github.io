@@ -27,12 +27,12 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a **scientist**, I use machine learning and atomistic simulations to develop methods that reveal how matter behaves, one atom at a time. My work spans:
+As a **scientist**, I use computers and physics to develop methods to understand the world, one atom at a time. Some research directions (see also the [Projects](/al-folio/projects/)) are: 
 - Machine-learning collective variables for enhanced sampling
 - Data-efficient interatomic potentials for reactive and rare events
-- Applications to uncovering how dynamics shape catalytic reactivity
+- Uncovering how dynamics shape (heterogeneous) catalytic reactivity
 
-See the [Projects](/al-folio/projects/) page for selected examples.
+I received my **Ph.D.** from the Swiss Federal Institute of Technology (ETH Zurich), supervised by Prof. Michele Parrinello. 
 
-I received my **Ph.D.** from the Swiss Federal Institute of Technology (ETH Zurich), supervised by Prof. Michele Parrinello. I am currently a Researcher at IIT, working on AI-driven simulations of complex chemical and physical processes. I am also part of several international networks, including *AmmoRef* ([TransHyDE](https://www.wasserstoff-leitprojekte.de/projects/transhyde)), the *Future of Artificial Intelligence Research* ([FAIR](https://fondazione-fair.it/en/)), and the *Initiative for Computational Catalysis* at the Flatiron Institute ([Flatiron Institute](https://www.simonsfoundation.org/flatiron/initiative-for-computational-catalysis/)).
+Currently a Researcher at IIT, working on AI-driven simulations of complex chemical and physical processes. I am also part of several international networks, including *AmmoRef* ([TransHyDE](https://www.wasserstoff-leitprojekte.de/projects/transhyde)), the *Future of Artificial Intelligence Research* ([FAIR](https://fondazione-fair.it/en/)), and the *Initiative for Computational Catalysis* at the Flatiron Institute ([Flatiron Institute](https://www.simonsfoundation.org/flatiron/initiative-for-computational-catalysis/)).
 
