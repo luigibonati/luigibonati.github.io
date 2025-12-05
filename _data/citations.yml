@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-03'
+  last_updated: '2025-12-05'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
     citations: 51
@@ -10,7 +10,7 @@ papers:
     title: 'A unified framework for machine learning collective variables for enhanced sampling simulations: mlcolvar'
     year: '2023'
   XPXf728AAAAJ:4DMP91E08xMC:
-    citations: 19
+    citations: 20
     title: Iron nitride formation and decomposition during ammonia decomposition over a wustite-based bulk iron catalyst
     year: '2024'
   XPXf728AAAAJ:4JMBOYKVnBMC:
@@ -54,7 +54,7 @@ papers:
     title: How dynamics changes ammonia cracking on iron surfaces
     year: '2024'
   XPXf728AAAAJ:UeHWp8X0CEIC:
-    citations: 182
+    citations: 183
     title: Silicon Liquid Structure and Crystal Nucleation from Ab Initio Deep Metadynamics
     year: '2018'
   XPXf728AAAAJ:UebtZRa9Y70C:
@@ -78,7 +78,7 @@ papers:
     title: "How poisoning is avoided in a step of relevance to the Haber\u2013Bosch catalysis"
     year: '2024'
   XPXf728AAAAJ:YsMSGLbcyi4C:
-    citations: 213
+    citations: 214
     title: Ab initio phase diagram and nucleation of gallium
     year: '2020'
   XPXf728AAAAJ:ZeXyd9-uunAC:
