@@ -93,27 +93,34 @@
    bibtex_show={true}
 }
 
-@inbook{Bonati2021DeepSampling,
-   abstract = {The development of enhanced sampling methods has greatly extended the scope of atomistic simulations, allowing long-time phenomena to be studied with accessible computational resources. Many such methods rely on the identification of an appropriate set of collective variables. These are meant to describe the system's modes that most slowly approach equilibrium. Once identified, the equilibration of these modes is accelerated by the enhanced sampling method of choice. An attractive way of determining the collective variables is to relate them to the eigenfunctions and eigenvalues of the transfer operator. Unfortunately, this requires knowing the long-term dynamics of the system beforehand, which is generally not available. However, we have recently shown that it is indeed possible to determine efficient collective variables starting from biased simulations. In this paper, we bring the power of machine learning and the efficiency of the recently developed on-the-fly probability enhanced sampling method to bear on this approach. The result is a powerful and robust algorithm that, given an initial enhanced sampling simulation performed with trial collective variables or generalized ensembles, extracts transfer operator eigenfunctions using a neural network ansatz and then accelerates them to promote sampling of rare events. To illustrate the generality of this approach we apply it to several systems, ranging from the conformational transition of a small molecule to the folding of a mini-protein and the study of materials crystallization.},
-   author = {Luigi Bonati and GiovanniMaria Piccini and Michele Parrinello},
-   booktitle = {arxiv:2107.03943},
-   abbr = {arXiv},
-   title = {Deep learning the slow modes for rare events sampling},
-   url = {http://arxiv.org/abs/2107.03943},
-   year = {2021},
-   preview = {2021-pnas-tica.png},
-     selected={true},
-   bibtex_show={true}
+@article{Bonati2021DeepSampling,
+  abstract = {The development of enhanced sampling methods has greatly extended the scope of atomistic simulations, allowing long-time phenomena to be studied with accessible computational resources. Many such methods rely on the identification of an appropriate set of collective variables. These are meant to describe the system's modes that most slowly approach equilibrium. Once identified, the equilibration of these modes is accelerated by the enhanced sampling method of choice. An attractive way of determining the collective variables is to relate them to the eigenfunctions and eigenvalues of the transfer operator. Unfortunately, this requires knowing the long-term dynamics of the system beforehand, which is generally not available. However, we have recently shown that it is indeed possible to determine efficient collective variables starting from biased simulations. In this paper, we bring the power of machine learning and the efficiency of the recently developed on-the-fly probability enhanced sampling method to bear on this approach. The result is a powerful and robust algorithm that, given an initial enhanced sampling simulation performed with trial collective variables or generalized ensembles, extracts transfer operator eigenfunctions using a neural network ansatz and then accelerates them to promote sampling of rare events. To illustrate the generality of this approach we apply it to several systems, ranging from the conformational transition of a small molecule to the folding of a mini-protein and the study of materials crystallization.},
+  title={Deep learning the slow modes for rare events sampling},
+  author={Bonati, Luigi and Piccini, GiovanniMaria and Parrinello, Michele},
+  journal={Proceedings of the National Academy of Sciences},
+  doi={10.1073/pnas.2113533118},
+  volume={118},
+  number={44},
+  pages={e2113533118},
+  year={2021},
+  month = {16},
+  publisher={National Academy of Sciences},
+  preview = {2021-pnas-tica.png},
+  selected={true},
+bibtex_show={true}
 }
 
 @article{Bonati2021TrainingAnalysis,
    abstract = {A popular way to accelerate the sampling of rare events in molecular dynamics simulations is to introduce a potential that increases the fluctuations of selected collective variables. For this strategy to be successful, it is critical to choose appropriate variables. Here we review some recent developments in the data-driven design of collective variables, with a focus on the combination of Fisher's discriminant analysis and neural networks. This approach allows to compress the fluctuations of metastable states into a low-dimensional representation. We illustrate through several examples the effectiveness of this method in accelerating the sampling, while also identifying the physical descriptors that undergo the most significant changes in the process.},
    author = {Luigi Bonati},
-   journal = {arXiv},
-   abbr = {arXiv},
+   journal = {Nuovo Cimento C},
+   abbr = {Nuovo Cimento C},
    title = {Training collective variables for enhanced sampling via neural networks based discriminant analysis},
-   url = {http://arxiv.org/abs/2101.07085},
+   doi = {10.1393/ncc/i2021-21125-3},
    year = {2021},
+   issue = {4-5},
+   page = {125}
+   month = {8},
    preview = {2021-cimento.png},
    bibtex_show={true}
 }
@@ -213,7 +220,7 @@
 @article{Perego2024DataSampling,
    abstract = {Simulating catalytic reactivity under operative conditions poses a significant challenge due to the dynamic nature of the catalysts and the high computational cost of electronic structure calculations. Machine learning potentials offer a promising avenue to simulate dynamics at a fraction of the cost, but they require datasets containing all relevant configurations, particularly reactive ones. Here, we present a scheme to construct reactive potentials in a data-efficient manner. This is achieved by combining enhanced sampling methods first with Gaussian processes to discover transition paths and then with graph neural networks to obtain a uniformly accurate description. The necessary configurations are extracted via a Data-Efficient Active Learning (DEAL) procedure based on local environment uncertainty. We validated our approach by studying several reactions related to the decomposition of ammonia on iron-cobalt alloy catalysts. Our scheme proved to be efficient, requiring only ~1000 DFT calculations per reaction, and robust, sampling reactive configurations from the different accessible pathways. Using this potential, we calculated free energy profiles and characterized reaction mechanisms, showing the ability to provide microscopic insights into complex processes under dynamic conditions.},
    author = {Simone Perego and Luigi Bonati},
-   doi = {10.1038/S41524-024-01481-6;SUBJMETA},
+   doi = {10.1038/S41524-024-01481-6},
    issn = {20573960},
    issue = {1},
    journal = {npj Computational Materials},
@@ -245,7 +252,7 @@
    publisher = {American Chemical Society},
    title = {Descriptor-Free Collective Variables from Geometric Graph Neural Networks},
    volume = {20},
-   url = {/doi/pdf/10.1021/acs.jctc.4c01197?ref=article_openPDF},
+   url = {/doi/pdf/10.1021/acs.jctc.4c01197},
    year = {2024},
    preview = {2024-jctc-gnn.png},
    bibtex_show={true}
