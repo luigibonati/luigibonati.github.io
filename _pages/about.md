@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -34,7 +34,4 @@ As a **scientist**, I use computers and physics to develop methods to understand
 
 I got my **Ph.D.** from the Swiss Federal Institute of Technology (ETH Zurich), under the supervision of Prof. Michele Parrinello, where I focused on the integration of machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology. 
 
-After that, I moved to the Italian Institute of Technology, first as PostDoc and later as a
-
-Currently a Researcher at IIT, working on AI-driven simulations of complex chemical and physical processes. I am also part of several international networks, including *AmmoRef* ([TransHyDE](https://www.wasserstoff-leitprojekte.de/projects/transhyde)), the *Future of Artificial Intelligence Research* ([FAIR](https://fondazione-fair.it/en/)), and the *Initiative for Computational Catalysis* at the Flatiron Institute ([Flatiron Institute](https://www.simonsfoundation.org/flatiron/initiative-for-computational-catalysis/)).
-
+After that, I moved to the  <b>Italian Institute of Technology</b> in Genoa, Italy, to continue to develop these methods and apply them to important real-world problems, within a framework of numerous national and international collaborations. With the German *AmmoRef* research network ([TransHyDE](https://www.wasserstoff-leitprojekte.de/projects/transhyde)), I applied these methodologies to understand and improve catalytic processes, with a focus on the decomposition of ammonia, a process essential for the hydrogen-based economy. Furthermore, within the *Future of Artificial Intelligence Research* ([FAIR](https://fondazione-fair.it/en/)) foundation, I collaborate with machine learning experts to develop state-of-the art methodologies and and apply them to atomistic simulations. I am also a visiting collaborator at the *Initiative for Computational Catalysis* at the Flatiron Institute ([Flatiron Institute](https://www.simonsfoundation.org/flatiron/initiative-for-computational-catalysis/)).
