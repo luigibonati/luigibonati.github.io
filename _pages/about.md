@@ -1,15 +1,16 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Researcher @ Italian Institute of Technology (<a href='https://www.iit.it/en-US/home'>IIT</a>). Husband and father of two. 
+subtitle: Atomistic simulations · Machine learning · Enhanced sampling
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>IIT, Center for Human Technologies</p>
+    <p>Italian Institute of Technology</p>
+    <p>Center for Human Technologies</p>
     <p>Via Melen 83</p>
     <p>16152 Genova, IT</p>
 
@@ -27,11 +28,11 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a **scientist**, I use computers and physics to develop methods to understand the world, one atom at a time. Some research directions (see also the [Projects](/al-folio/projects/) page) are: 
+As a **scientist**, I use computers and physics to develop methods to understand the world, one atom at a time. Some research directions are:
 - Machine-learning collective variables for enhanced sampling
-- Data-efficient interatomic potentials for reactive and rare events
-- Uncovering how dynamics shape (heterogeneous) catalytic reactivity
+- Data-efficient interatomic potentials for rare events
+- Uncovering how dynamics shape (heterogeneous) catalytic reactivity 
 
-I got my **Ph.D.** from the Swiss Federal Institute of Technology (ETH Zurich), under the supervision of Prof. Michele Parrinello, where I focused on the integration of machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology. 
-
-After that, I moved to the  <b>Italian Institute of Technology</b> in Genoa, Italy, to continue to develop these methods and apply them to important real-world problems, within a framework of numerous national and international collaborations. With the German *AmmoRef* research network ([TransHyDE](https://www.wasserstoff-leitprojekte.de/projects/transhyde)), I applied these methodologies to understand and improve catalytic processes, with a focus on the decomposition of ammonia, a process essential for the hydrogen-based economy. Furthermore, within the *Future of Artificial Intelligence Research* ([FAIR](https://fondazione-fair.it/en/)) foundation, I collaborate with machine learning experts to develop state-of-the art methodologies and and apply them to atomistic simulations. I am also a visiting collaborator at the *Initiative for Computational Catalysis* at the Flatiron Institute ([Flatiron Institute](https://www.simonsfoundation.org/flatiron/initiative-for-computational-catalysis/)).
+I got my *Ph.D.* from <b>[ETH Zurich](https://www.iit.it/en-US/home)</b>, under the supervision of Prof. Michele Parrinello, where I focused on the development of simulation methods by integrating machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology. 
+After that, I moved to the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy, first as a *PostDoc* and later as a *Researcher* to further develop these methodologies in collaboration with machine learning experts and simultaneosly apply them to important real-world problems, focusing on heterogeneous catalytic processes such as ammonia synthesis and decomposition.
+See the [projects](/al-folio/projects/) page for some examples. 
