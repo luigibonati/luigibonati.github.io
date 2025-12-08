@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-05'
+  last_updated: '2025-12-08'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
     citations: 51
@@ -22,11 +22,11 @@ papers:
     title: A machine-learning interatomic potential for the Ge2Sb2Te5 phase change compound
     year: '2023'
   XPXf728AAAAJ:IWHjjKOFINEC:
-    citations: 29
+    citations: 30
     title: Data efficient machine learning potentials for modeling catalytic reactivity via active learning and enhanced sampling
     year: '2024'
   XPXf728AAAAJ:L8Ckcad2t8MC:
-    citations: 19
+    citations: 21
     title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
     year: '2025'
   XPXf728AAAAJ:LkGwnXOMwfcC:
@@ -38,7 +38,7 @@ papers:
     title: Transfer learning for atomistic simulations using GNNs and kernel mean embeddings
     year: '2023'
   XPXf728AAAAJ:R3hNpaxXUhUC:
-    citations: 1
+    citations: 2
     title: Weighted active space protocol for multireference machine-learned potentials
     year: '2025'
   XPXf728AAAAJ:RHpTSmoSYBkC:
@@ -78,7 +78,7 @@ papers:
     title: "How poisoning is avoided in a step of relevance to the Haber\u2013Bosch catalysis"
     year: '2024'
   XPXf728AAAAJ:YsMSGLbcyi4C:
-    citations: 214
+    citations: 216
     title: Ab initio phase diagram and nucleation of gallium
     year: '2020'
   XPXf728AAAAJ:ZeXyd9-uunAC:
@@ -110,7 +110,7 @@ papers:
     title: Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems
     year: '2025'
   XPXf728AAAAJ:eQOLeE2rZwMC:
-    citations: 80
+    citations: 81
     title: The role of water in host-guest interaction
     year: '2021'
   XPXf728AAAAJ:hC7cP41nSMkC:
@@ -121,12 +121,16 @@ papers:
     citations: 0
     title: 'Supporting Information: The role of water in host-guest interaction'
     year: '2020'
+  XPXf728AAAAJ:iH-uZ7U-co4C:
+    citations: 0
+    title: 'From trial-and-error to intelligent workflows: machine learning and simulations for scalable 2D material synthesis'
+    year: '2025'
   XPXf728AAAAJ:j3f4tGmQtD8C:
     citations: 0
     title: Nitrogen adsorption and dissociation on flat and stepped Fe (110) surfaces
     year: '2025'
   XPXf728AAAAJ:kNdYIx-mwKoC:
-    citations: 79
+    citations: 81
     title: 'The role of dynamics in heterogeneous catalysis: Surface diffusivity and N2 decomposition on Fe(111)'
     year: '2023'
   XPXf728AAAAJ:qUcmZB5y_30C:
@@ -142,7 +146,7 @@ papers:
     title: Machine learning and enhanced sampling simulations
     year: '2021'
   XPXf728AAAAJ:ufrVoPGSRksC:
-    citations: 176
+    citations: 177
     title: 'Using metadynamics to build neural network potentials for reactive events: the case of urea decomposition in water'
     year: '2022'
   XPXf728AAAAJ:zYLM7Y9cAGgC:
