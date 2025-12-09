@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Publications
+title: publications
 description: See my [Google Scholar](https://scholar.google.com/citations?user=XPXf728AAAAJ) profile for the most updated list.
 nav: true
 nav_order: 2
