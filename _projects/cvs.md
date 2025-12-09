@@ -4,7 +4,7 @@ title: Data-driven collective variables
 description: Using machine learning to discover CVs for enhanced sampling
 img: assets/img/publication_preview/2020-jpcl-deeplda.png
 importance: 1
-category: research
+category: projects
 related_publications: true
 ---
 

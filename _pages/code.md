@@ -1,15 +1,15 @@
 ---
 layout: page
-title: research
-permalink: /projects/
-description: Some research projects I've been working on. 
+title: code
+permalink: /code/
+description: Software I developed and contributed to.
 nav: true
-nav_order: 1
-display_categories: [projects]
+nav_order: 2
+display_categories: [code]
 horizontal: false
 ---
 
-<!-- pages/projects.md -->
+<!-- pages/code.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->

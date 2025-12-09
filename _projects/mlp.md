@@ -4,7 +4,7 @@ title: Machine learning potentials
 description: Accelerating active learning with enhanced sampling to study rare events
 img: assets/img/publication_preview/2022-cattod-urea.png
 importance: 2
-category: research
+category: projects
 related_publications: true
 ---
 
