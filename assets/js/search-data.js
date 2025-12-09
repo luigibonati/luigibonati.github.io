@@ -4,27 +4,34 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "About",
+    title: "about",
     section: "Navigation",
     handler: () => {
       window.location.href = "/al-folio/";
     },
   },{id: "nav-research",
-          title: "Research",
+          title: "research",
           description: "Some research projects I&#39;ve been working on.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/projects/";
           },
+        },{id: "nav-code",
+          title: "code",
+          description: "Software I developed and contributed to.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/al-folio/code/";
+          },
         },{id: "nav-publications",
-          title: "Publications",
-          description: "See my [Google Scholar](https://scholar.google.com/citations?user=XPXf728AAAAJ) profile for the most updated list.",
+          title: "publications",
+          description: "See my Google Scholar profile for the most updated list.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/publications/";
           },
         },{id: "nav-cv",
-          title: "CV",
+          title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
@@ -53,6 +60,11 @@ ninja.data = [{
           description: "Using machine learning to discover CVs for enhanced sampling",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/cvs.html";
+            },},{id: "projects-machine-learning-bias-potentials",
+          title: 'Machine learning bias potentials',
+          description: "Neural network-based variationally enhanced sampling",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/mlcolvar.html";
             },},{id: "projects-machine-learning-potentials",
           title: 'Machine learning potentials',
           description: "Accelerating active learning with enhanced sampling to study rare events",
