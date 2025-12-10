@@ -1,11 +1,24 @@
 "PRL":
-  color: "#2d8659"
+  color: "#2d8659; color:#ffffff"
 
 "PNAS":
-  color: "#2e5cb8"
+  color: "#2e5cb8; color:#ffffff"
 
-"arxiv":
-  color: "#b31b1b"
+"arXiv":
+  color: "#b31b1b; color:#ffffff"
 
 "npj Comput. Mater.":
-  color: "#e60000"
+  color: "#cc0000; color:#ffffff"
+
+"JCP": 
+  color: "#002266; color:#ffffff"
+
+"Chem. Rev.":
+  color: "#ffcc00"
+
+"JCTC":
+  color: "#ffcc00"
+
+"ACS Catal.": 
+  color: "#ffcc00"
+
