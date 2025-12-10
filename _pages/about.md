@@ -10,8 +10,7 @@ profile:
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Italian Institute of Technology</p>
-    <p>Center for Human Technologies</p>
-    <p>Via Melen 83</p>
+    <p>CHT, Via Melen 83</p>
     <p>16152 Genova, IT</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -28,11 +27,13 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a **scientist**, I use computers and physics to develop methods to understand the world, one atom at a time. Some research directions are:
+As a **scientist**, I use computers and physics to develop methods that help us understand the world one atom at a time. My research focuses on:
 - Machine-learning collective variables for enhanced sampling
 - Data-efficient interatomic potentials for rare events
 - Uncovering how dynamics shape (heterogeneous) catalytic reactivity 
 
-I got my *Ph.D.* from <b>[ETH Zurich](https://www.iit.it/en-US/home)</b>, under the supervision of Prof. Michele Parrinello, where I focused on the development of simulation methods by integrating machine learning and enhanced sampling techniques to study rare events in physics, chemistry and biology. 
-After that, I moved to the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy, first as a *PostDoc* and later as a *Researcher* to further develop these methodologies in collaboration with machine learning experts and simultaneosly apply them to important real-world problems, focusing on heterogeneous catalytic processes such as ammonia synthesis and decomposition.
-See the [projects](/al-folio/projects/) page for some examples. 
+**Short bio**. I got my *Ph.D.* from <b>[ETH Zurich](https://www.iit.it/en-US/home)</b>, under the supervision of Prof. Michele Parrinello, where I developed simulation methods that integrate machine learning and enhanced sampling to study rare events in physics, chemistry, and biology.
+
+I then joined the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy—first as a *PostDoc* and later as a *Researcher*—to further advance these methodologies in collaboration with machine-learning experts, while applying them to real-world problems in heterogeneous catalysis, such as ammonia synthesis and decomposition. See the [projects](/al-folio/projects/) page for examples.
+
+**Code development**: I enjoy creating new algorithms and making them accessible to the community. I actively develop and contribute to open-source software. See the [code](/al-folio/projects/) page for more.
