@@ -11,10 +11,10 @@ related_publications: true
 A key challenge in enhanced sampling simulations is identifying collective variables (CVs) able to efficiently explore rare events. I developed data-driven approaches that automate this process using machine learning techniques. Notably, I proposed a method to build CVs from metastable states alone via neural networks optimized with Fisher’s discriminant {% cite Bonati2020DataDrivenSampling %} and a deep learning framework to extract slow modes from biased simulations, improving rare-event sampling in diverse applications {% cite Bonati2021DeepSampling %}. 
 
 <div class="row justify-content-sm-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+    <div class="col-sm-3 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/2021-cimento.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-3 mt-md-0">
+    <div class="col-sm-9 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/publication_preview/2021-pnas-tica.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>

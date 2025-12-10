@@ -30,5 +30,4 @@ Franken is an open-source library that can be used to enhance the accuracy of at
     </div>
 </div>
 
-For detailed information and benchmarks please check our paper [*Fast and Fourier Features for Transfer Learning of Interatomic Potentials*](https://www.nature.com/articles/s41524-025-01779-z) [].
 
