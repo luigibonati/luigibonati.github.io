@@ -2,7 +2,7 @@
 layout: page
 title: deal
 description: Data-efficient active learning for machine learning interatomic potential
-img: assets/img/projects_preview/deal.png
+img: assets/img/project_preview/deal.png
 importance: 2
 category: code
 related_publications: true
@@ -20,8 +20,14 @@ DEAL selects non-redundant structures from atomistic trajectories via Sparse Gau
 
 * Select structures based on SGP predictive variance. 
 * Analyze selected structures (e.g. along the trajectory or as a function of a CV)
-
-    <img src="examples/formate/imgs/analysis.png" alt="drawing" width="824"/>
 * Interactive visualization using [chemiscope](https://chemiscope.org/)
 
-    <a href="https://chemiscope.org/?load=https://raw.githubusercontent.com/luigibonati/DEAL/refs/heads/main/examples/formate/selection/deal_0.1_chemiscope.json.gz"> <img src="examples/formate/imgs/chemiscope-viewer.png" alt="drawing" width="412"></a>
+    <div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/deal-analysis.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/projects/deal-chemiscope.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
