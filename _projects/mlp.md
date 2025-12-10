@@ -44,4 +44,4 @@ To make the machine learning potentials routinely applicable and to model proces
 **Transfer learning for atomistic simulations**. 
 Furthermore, we are also developing transfer learning approaches to extract the representation learned from graph neural networks trained on large datasets and transfer them to new systems via kernel methods {% cite Falk2023Transfer %}. In particular, we combined them with random Fourier features, a large-scale kernel approximation. {% cite Novelli2025FastPotentials %}. This also provides a closed-form fine-tuning strategy for general-purpose potentials such as MACE-MP0, enabling fast and accurate adaptation to new systems or levels of quantum mechanical theory with minimal hyperparameter tuning. This provides a data-efficient framework not only for energy/force predictions but also for stable and accurate MD simulations using just a few tens of training data.
 
-Open-source implementation: [franken](projects/code_franken.md).
+Open-source implementation: [franken](code_franken.html).
