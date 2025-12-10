@@ -74,10 +74,10 @@ ninja.data = [{
           title: 'Data-driven collective variables',
           description: "Using machine learning to discover CVs for enhanced sampling",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/cvs.html";
+              window.location.href = "/al-folio/projects/mlcvs.html";
             },},{id: "projects-machine-learning-potentials",
           title: 'Machine learning potentials',
-          description: "Accelerating active learning with enhanced sampling to study rare events",
+          description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/mlp.html";
             },},{
