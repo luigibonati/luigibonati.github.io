@@ -2,7 +2,7 @@
 layout: page
 title: The role of dynamics in catalysis
 description: Combining ML and enhanced sampling to unveil the role of dynamics
-img: assets/img/projects/FeN2.png
+img: assets/img/project_preview/FeN2.png
 importance: 3
 category: projects
 related_publications: true

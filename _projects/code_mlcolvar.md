@@ -2,7 +2,7 @@
 layout: page
 title: mlcolvar
 description: Machine learning collective variables for enhanced sampling
-img: assets/img/projects_preview/mlcolvar.png
+img: assets/img/project_preview/mlcolvar.png
 importance: 1
 category: code
 related_publications: true
