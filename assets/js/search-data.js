@@ -42,15 +42,21 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/al-folio/books/the_godfather.html";
-            },},{id: "news-moving-to-a-new-website-but-it-is-still-work-in-progress",
-          title: 'Moving to a new website, but it is still work in progress.',
+            },},{id: "news-the-new-website-is-online-construction-in-progress",
+          title: 'The new website is online, construction in progress!',
+          description: "",
+          section: "News",},{id: "news-a-new-publication-out-on-2d-materials",
+          title: 'A new publication out on 2D Materials!',
           description: "",
           section: "News",},{id: "news-postdoc-position-in-ml-for-atomistic-simulations",
           title: 'PostDoc position in ML for atomistic simulations',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/al-folio/news/251201-postdoc.html";
-            },},{id: "projects-the-role-of-dynamics-in-catalysis",
+              window.location.href = "/al-folio/news/20251201-postdoc.html";
+            },},{id: "news-a-new-publication-out-on-journal-of-catalysis",
+          title: 'A new publication out on Journal of Catalysis!',
+          description: "",
+          section: "News",},{id: "projects-the-role-of-dynamics-in-catalysis",
           title: 'The role of dynamics in catalysis',
           description: "Combining ML and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
