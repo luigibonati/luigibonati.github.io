@@ -8,7 +8,7 @@
       "url": "",
       "startDate": "2024-10-01",
       "summary": "AI4Science, developing and applying ML techniques to atomistic simulations.",
-      "highlights": ["Contributed to the `Future of Artificial Intelligence Research` (FAIR) foundation, funded by the EU and the Italian MIUR.", "Visiting collaborator at the Initiative for Computational Catalysis of the Flatiron Insitute (New York City, USA)."]
+      "highlights": ["Contributed to the `Future of Artificial Intelligence Research` (<a href='https://fondazione-fair.it/en/'>FAIR</a>) foundation, funded by the EU and the Italian MIUR.", "Visiting collaborator at the Initiative for Computational Catalysis of the <a href='https://www.simonsfoundation.org/flatiron/'>Flatiron Insitute</a> (New York City, USA)."]
     },
     {
       "name": "Italian Institute of Technology (IIT) & AmmoRef research network",
@@ -17,7 +17,7 @@
       "url": "",
       "startDate": "2021-01-01",
       "endDate": "2024-09-01",
-      "summary": "Atomistic Simulations research line.",
+      "summary": "Atomistic Simulations of catalytic processes.",
       "highlights": ["Responsible of the atomistic simulations within the AmmoRef network (TransHyDE project 'Ammonia reforming: catalyst synthesis / characterization / mechanisms') funded by the German Federal Ministry of Education and Research.", "Academic-corporate collaborations with chemical industries."]
     }
   ],
