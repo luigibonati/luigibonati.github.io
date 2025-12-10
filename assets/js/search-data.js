@@ -55,6 +55,11 @@ ninja.data = [{
           description: "Combining ML and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/cat.html";
+            },},{id: "projects-deal",
+          title: 'deal',
+          description: "Data-efficient active learning for machine learning interatomic potential",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/code_deal.html";
             },},{id: "projects-franken",
           title: 'franken',
           description: "Transfer learning with GNNs and random Fourier features",
@@ -75,11 +80,6 @@ ninja.data = [{
           description: "Accelerating active learning with enhanced sampling to study rare events",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/mlp.html";
-            },},{id: "projects-machine-learning-bias-potentials",
-          title: 'Machine learning bias potentials',
-          description: "Neural network-based variationally enhanced sampling",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/ves.html";
             },},{
         id: 'social-cv',
         title: 'CV',
