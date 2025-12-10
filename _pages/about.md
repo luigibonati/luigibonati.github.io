@@ -33,7 +33,6 @@ As a **scientist**, I use computers and physics to develop methods that help us 
 - Uncovering how dynamics shape (heterogeneous) catalytic reactivity 
 
 **Short bio**. I got my *Ph.D.* from <b>[ETH Zurich](https://www.iit.it/en-US/home)</b>, under the supervision of Prof. Michele Parrinello, where I developed simulation methods that integrate machine learning and enhanced sampling to study rare events in physics, chemistry, and biology.
-
-I then joined the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy—first as a *PostDoc* and later as a *Researcher*—to further advance these methodologies in collaboration with machine-learning experts, while applying them to real-world problems in heterogeneous catalysis, such as ammonia synthesis and decomposition. See the [projects](/al-folio/projects/) page for examples.
+I then joined the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy, first as a *PostDoc* and later as a *Researcher*, to further advance these methodologies in collaboration with machine learning experts, while applying them to real-world applications in heterogeneous catalysis, such as ammonia synthesis and decomposition. See the [projects](/al-folio/projects/) page for examples.
 
 **Code development**: I enjoy creating new algorithms and making them accessible to the community. I actively develop and contribute to open-source software. See the [code](/al-folio/projects/) page for more.
