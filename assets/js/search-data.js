@@ -32,7 +32,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
@@ -55,16 +55,21 @@ ninja.data = [{
           description: "Combining ML and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/cat.html";
+            },},{id: "projects-franken",
+          title: 'franken',
+          description: "Transfer learning with GNNs and random Fourier features",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/code_franken.html";
+            },},{id: "projects-mlcolvar",
+          title: 'mlcolvar',
+          description: "Machine learning collective variables for enhanced sampling",
+          section: "Projects",handler: () => {
+              window.location.href = "/al-folio/projects/code_mlcolvar.html";
             },},{id: "projects-data-driven-collective-variables",
           title: 'Data-driven collective variables',
           description: "Using machine learning to discover CVs for enhanced sampling",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/cvs.html";
-            },},{id: "projects-machine-learning-bias-potentials",
-          title: 'Machine learning bias potentials',
-          description: "Neural network-based variationally enhanced sampling",
-          section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mlcolvar.html";
             },},{id: "projects-machine-learning-potentials",
           title: 'Machine learning potentials',
           description: "Accelerating active learning with enhanced sampling to study rare events",
