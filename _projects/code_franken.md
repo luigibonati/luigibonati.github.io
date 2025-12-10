@@ -26,7 +26,7 @@ Franken is an open-source library that can be used to enhance the accuracy of at
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/publication_preview/2025-npj-franken.png" title="mlcolvar" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/franken-overview.png" title="mlcolvar" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 

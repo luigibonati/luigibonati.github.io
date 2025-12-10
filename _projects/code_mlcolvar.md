@@ -2,7 +2,7 @@
 layout: page
 title: mlcolvar
 description: Machine learning collective variables for enhanced sampling
-img: assets/img/mlcolvar.png
+img: assets/img/projects_preview/mlcolvar.png
 importance: 1
 category: code
 related_publications: true
@@ -18,7 +18,7 @@ related_publications: true
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/mlcolvar.png" title="mlcolvar" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/projects/mlcolvar_horizontal_logo.png" title="mlcolvar" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
@@ -38,3 +38,9 @@ Some of the **CVs** which are implemented, organized by learning setting:
 - _Time-informed_: TICA [[6](http://dx.doi.org/%2010.1063/1.4811489)], DeepTICA/SRVs [[7](http://dx.doi.org/10.1073/pnas.2113533118),[8](http://dx.doi.org/%2010.1063/1.5092521)], VDE [[9](http://dx.doi.org/10.1103/PhysRevE.97.062412)]
 
 And many others can be implemented based on the building blocks or with simple modifications. Check out the [tutorials](https://mlcolvar.readthedocs.io/en/stable/tutorials.html) and the [examples](https://mlcolvar.readthedocs.io/en/stable/examples.html) section of the documentation.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/projects/mlcolvar_graphical_overview.png.png" title="mlcolvar-overview" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>

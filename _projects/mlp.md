@@ -31,16 +31,16 @@ To make the machine learning potentials routinely applicable and to model proces
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deal-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/deal-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/deal-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/deal-2.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     Left: gaussian-process based enhanced sampling exploration of reaction pathways. Right: data-efficient active learning selection.
 </div>
 
-
+**Transfer learning for atomistic simulations**. 
 Furthermore, we are also developing transfer learning approaches to extract the representation learned from graph neural networks trained on large datasets and transfer them to new systems via kernel methods, enabling high (computational and data) efficiency  {% cite Falk2023Transfer %} {% cite Novelli2025FastPotentials %}.
 
