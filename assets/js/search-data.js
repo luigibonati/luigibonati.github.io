@@ -7,41 +7,41 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/al-folio/";
+      window.location.href = "/";
     },
   },{id: "nav-research",
           title: "research",
           description: "An overview of my research directions.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/projects/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-code",
           title: "code",
           description: "Software I developed and contributed to.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/code/";
+            window.location.href = "/code/";
           },
         },{id: "nav-publications",
           title: "publications",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/publications/";
+            window.location.href = "/publications/";
           },
         },{id: "nav-cv",
           title: "cv",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/al-folio/cv/";
+            window.location.href = "/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/al-folio/books/the_godfather.html";
+              window.location.href = "/books/the_godfather.html";
             },},{id: "news-the-new-website-is-online-construction-in-progress",
           title: 'The new website is online, construction in progress!',
           description: "",
@@ -49,7 +49,7 @@ ninja.data = [{
           title: 'PostDoc position in ML for atomistic simulations',
           description: "",
           section: "News",handler: () => {
-              window.location.href = "/al-folio/news/20251201-postdoc.html";
+              window.location.href = "/news/20251201-postdoc.html";
             },},{id: "news-a-new-publication-out-on-2d-materials",
           title: 'A new publication out on 2D Materials!',
           description: "",
@@ -60,38 +60,38 @@ ninja.data = [{
           title: 'The role of dynamics in catalysis',
           description: "Combining ML and enhanced sampling to unveil the role of dynamics",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/cat.html";
+              window.location.href = "/projects/cat.html";
             },},{id: "projects-deal",
           title: 'deal',
           description: "Data-efficient active learning for machine learning interatomic potential",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/code_deal.html";
+              window.location.href = "/projects/code_deal.html";
             },},{id: "projects-franken",
           title: 'franken',
           description: "Transfer learning with GNNs and random Fourier features",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/code_franken.html";
+              window.location.href = "/projects/code_franken.html";
             },},{id: "projects-mlcolvar",
           title: 'mlcolvar',
           description: "Machine learning collective variables for enhanced sampling",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/code_mlcolvar.html";
+              window.location.href = "/projects/code_mlcolvar.html";
             },},{id: "projects-data-driven-collective-variables",
           title: 'Data-driven collective variables',
           description: "Using machine learning to discover CVs for enhanced sampling",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mlcvs.html";
+              window.location.href = "/projects/mlcvs.html";
             },},{id: "projects-machine-learning-potentials",
           title: 'Machine learning potentials',
           description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
-              window.location.href = "/al-folio/projects/mlp.html";
+              window.location.href = "/projects/mlp.html";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio/assets/pdf/example_pdf.pdf", "_blank");
+          window.open("/assets/pdf/example_pdf.pdf", "_blank");
         },
       },{
         id: 'social-email',

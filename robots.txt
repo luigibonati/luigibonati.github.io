@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://luigibonati.github.io//al-folio/sitemap.xml
+Sitemap: https://luigibonati.github.io//sitemap.xml
