@@ -22,12 +22,11 @@ DEAL selects non-redundant structures from atomistic trajectories via Sparse Gau
 * Analyze selected structures (e.g. along the trajectory or as a function of a CV)
 * Interactive visualization using [chemiscope](https://chemiscope.org/)
 
-    <div class="row justify-content-sm-center">
+<div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/deal-analysis.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/deal-analysis.png" title="Analysis" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/projects/deal-chemiscope.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/projects/deal-chemiscope.png" title="Chemiscope" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-
