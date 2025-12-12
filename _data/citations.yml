@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2025-12-08'
+  last_updated: '2025-12-12'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
     citations: 51
     title: Unraveling the crystallization kinetics of the Ge2Sb2Te5 phase change compound with a machine-learned interatomic potential
     year: '2024'
   XPXf728AAAAJ:3fE2CSJIrl8C:
-    citations: 79
+    citations: 80
     title: 'A unified framework for machine learning collective variables for enhanced sampling simulations: mlcolvar'
     year: '2023'
   XPXf728AAAAJ:4DMP91E08xMC:
@@ -30,7 +30,7 @@ papers:
     title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
     year: '2025'
   XPXf728AAAAJ:LkGwnXOMwfcC:
-    citations: 235
+    citations: 237
     title: Deep learning the slow modes for rare events sampling
     year: '2021'
   XPXf728AAAAJ:MXK_kJrjxJIC:
@@ -50,7 +50,7 @@ papers:
     title: Fast and Fourier features for transfer learning of interatomic potentials
     year: '2025'
   XPXf728AAAAJ:ULOm3_A8WrAC:
-    citations: 34
+    citations: 35
     title: How dynamics changes ammonia cracking on iron surfaces
     year: '2024'
   XPXf728AAAAJ:UeHWp8X0CEIC:
@@ -62,7 +62,7 @@ papers:
     title: Characterizing metastable states with the help of machine learning
     year: '2022'
   XPXf728AAAAJ:W7OEmFMy1HYC:
-    citations: 204
+    citations: 206
     title: Data-driven collective variables for enhanced sampling
     year: '2020'
   XPXf728AAAAJ:WF5omc3nYNoC:
@@ -70,7 +70,7 @@ papers:
     title: Ab-initio machine learning potentials for phase transitions and phase diagrams using enhanced sampling methods
     year: Unknown Year
   XPXf728AAAAJ:Wp0gIr-vW9MC:
-    citations: 17
+    citations: 19
     title: Descriptor-free collective variables from geometric graph neural networks
     year: '2024'
   XPXf728AAAAJ:YOwf2qJgpHMC:
@@ -110,7 +110,7 @@ papers:
     title: Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems
     year: '2025'
   XPXf728AAAAJ:eQOLeE2rZwMC:
-    citations: 81
+    citations: 82
     title: The role of water in host-guest interaction
     year: '2021'
   XPXf728AAAAJ:hC7cP41nSMkC:
@@ -130,7 +130,7 @@ papers:
     title: Nitrogen adsorption and dissociation on flat and stepped Fe (110) surfaces
     year: '2025'
   XPXf728AAAAJ:kNdYIx-mwKoC:
-    citations: 81
+    citations: 82
     title: 'The role of dynamics in heterogeneous catalysis: Surface diffusivity and N2 decomposition on Fe(111)'
     year: '2023'
   XPXf728AAAAJ:qUcmZB5y_30C:
@@ -146,7 +146,7 @@ papers:
     title: Machine learning and enhanced sampling simulations
     year: '2021'
   XPXf728AAAAJ:ufrVoPGSRksC:
-    citations: 177
+    citations: 179
     title: 'Using metadynamics to build neural network potentials for reactive events: the case of urea decomposition in water'
     year: '2022'
   XPXf728AAAAJ:zYLM7Y9cAGgC:
