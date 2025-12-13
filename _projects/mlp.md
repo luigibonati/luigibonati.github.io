@@ -29,6 +29,8 @@ The construction of ML interatomic potentials for phase transitions and chemical
 **Data-efficient active learning**. 
 To make the machine learning potentials routinely applicable and to model processes in more realistic conditions and with higher levels of electronic theory, it is essential to have data-efficient techniques. To this end, I have devised a framework that integrates advanced sampling with Gaussian processes and graph neural networks to construct reactive potentials in a highly efficient manner {% cite Perego2024DataSampling %}. This data-efficient active learning (DEAL) scheme enables an ab initio-quality discovery of transition paths and ensures uniform accuracy along them, with a 20-fold increase in data-efficiency with respect to previous approaches. 
 
+Open-source implementation: [DEAL](code_deal.html).
+
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/projects/deal-1.png" title="example image" class="img-fluid rounded z-depth-1" %}
