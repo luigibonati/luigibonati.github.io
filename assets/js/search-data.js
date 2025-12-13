@@ -95,15 +95,15 @@ ninja.data = [{
           description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlp.html";
+            },},{id: "talks-conference-on-molecular-modeling-for-energy-and-the-environment",
+          title: 'Conference on Molecular Modeling for Energy and the Environment',
+          description: "Conference",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/20251118-example-post.html";
             },},{id: "talks-test",
           title: 'TEST',
           description: "",
-          section: "Talks",},{id: "talks-test-title",
-          title: 'TEST TITLE',
-          description: "Machine learning and enhanced sampling",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/20251118-example-post.html";
-            },},{
+          section: "Talks",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
