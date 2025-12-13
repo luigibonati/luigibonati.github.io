@@ -37,13 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-the-new-website-is-online-construction-in-progress",
-          title: 'The new website is online, construction in progress!',
+        },{id: "news-the-new-website-is-online-work-in-progress",
+          title: 'The new website is online, work in progress!',
           description: "",
           section: "News",},{id: "news-postdoc-position-in-ml-for-atomistic-simulations",
           title: 'PostDoc position in ML for atomistic simulations',
@@ -86,7 +81,10 @@ ninja.data = [{
           description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlp.html";
-            },},{
+            },},{id: "talks-test",
+          title: 'TEST',
+          description: "",
+          section: "Talks",},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
