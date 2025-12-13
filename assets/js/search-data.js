@@ -98,9 +98,9 @@ ninja.data = [{
             },},{id: "talks-test",
           title: 'TEST',
           description: "",
-          section: "Talks",},{id: "talks-20251118-example-post",
-          title: '20251118 Example Post',
-          description: "",
+          section: "Talks",},{id: "talks-test-title",
+          title: 'TEST TITLE',
+          description: "Machine learning and enhanced sampling",
           section: "Talks",handler: () => {
               window.location.href = "/talks/20251118-example-post.html";
             },},{
