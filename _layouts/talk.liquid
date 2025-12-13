@@ -51,10 +51,18 @@ layout: default
         {% endif %}
 
         {% if page.website %}
+          {% assign pretty_url = page.website
+            | remove: "https://"
+            | remove: "http://"
+            | split: "/" | first
+          %}
           <div class="label">Website</div>
           <div class="value">
-            <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">
-              {{ page.website }}
+            <a href="{{ page.website }}"
+              class="pretty-link"
+              target="_blank"
+              rel="noopener noreferrer">
+              {{ pretty_url }}
             </a>
           </div>
         {% endif %}

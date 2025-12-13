@@ -4,23 +4,48 @@
 
 /* Card wrapper for talk metadata */
 .talk-card {
-  padding: 1rem;              /* inside the card */
-  margin: 1.8rem 0.8rem;      /* top/bottom | left/right */
+  padding: 1rem;
+  margin: 1.8rem 0.5rem;
+  max-width: 100%;
 }
 
 .talk-meta {
   display: grid;
   grid-template-columns: 7rem 1fr;
   row-gap: 0.4rem;
+  column-gap: 0.8rem;
 }
 
-/* Labels: semibold + theme color */
 .talk-meta .label {
   font-weight: 600;
   color: var(--global-theme-color);
 }
 
-/* Values: inherit default text color */
 .talk-meta .value {
-  font-weight: 400;
+  min-width: 0;
+}
+
+.talk-meta .value,
+.talk-meta a {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+@media (max-width: 576px) {
+  .talk-meta {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Pretty external links */
+.pretty-link {
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+/* Optional subtle cue */
+.pretty-link::after {
+  content: "↗";
+  font-size: 0.85em;
+  margin-left: 0.25rem;
 }
