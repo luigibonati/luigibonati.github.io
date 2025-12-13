@@ -24,17 +24,30 @@ layout: default
       </div>
       <hr>
     {% endif %}
-    <div class="card p-3 mb-3">
-        {% if t %}<div><strong>Type:</strong> {{ t }}</div>{% endif %}
-        {% if d %}<div><strong>Dates:</strong> {{ d }}</div>{% endif %}
-        {% if page.location %}<div><strong>Location:</strong> {{ page.location }}</div>{% endif %}
-        {% if page.description %}<div class="mt-2"><strong>Description:</strong> {{ page.description }}</div>{% endif %}
+    <div class="talk-meta">
+      <div class="label">Type</div>
+      <div class="value">{{ page.type }}</div>
 
-        {% if page.website %}
-          <div class="mt-2">
-            <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer"><strong>Website:</strong></a>
-          </div>
-        {% endif %}
+      {% if page.description %}
+        <div class="label">Description</div>
+        <div class="value">{{ page.description }}</div>
+      {% endif %}
+
+      {% if page.location %}
+        <div class="label">Location</div>
+        <div class="value">{{ page.location }}</div>
+      {% endif %}
+
+      <div class="label">Dates</div>
+      <div class="value">{{ d }}</div>
+
+      {% if page.website %}
+        <div class="value">
+          <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">
+            <div class="label">Website</div>
+          </a>
+        </div>
+      {% endif %}
     </div>
     <div id="markdown-content">
       {{ content }}

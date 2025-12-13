@@ -1,0 +1,20 @@
+/*******************************************************************************
+ * Custom style 
+ ******************************************************************************/
+
+.talk-meta {
+  display: grid;
+  grid-template-columns: 7rem 1fr;
+  row-gap: 0.4rem;
+}
+
+/* Labels: semibold + theme color */
+.talk-meta .label {
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+/* Values: inherit default text color */
+.talk-meta .value {
+  font-weight: 400;
+}
