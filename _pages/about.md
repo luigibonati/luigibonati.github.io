@@ -27,7 +27,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-As a **scientist**, I use computers and physics to develop methods that help us understand the world one atom at a time. My [research](projects.html) focuses on:
+As a **scientist**, I use computers and physics to develop methods that help us understand the world one atom at a time. My [research](/projects/) focuses on:
 - Machine-learning collective variables for enhanced sampling
 - Data-efficient interatomic potentials for rare events
 - Uncovering how dynamics shape (heterogeneous) catalytic reactivity 
@@ -35,4 +35,4 @@ As a **scientist**, I use computers and physics to develop methods that help us 
 **Short bio**. I got my *Ph.D.* from <b>[ETH Zurich](https://www.iit.it/en-US/home)</b>, under the supervision of Prof. Michele Parrinello, where I developed simulation methods that integrate machine learning and enhanced sampling to study rare events in physics, chemistry, and biology.
 I then joined the <b>[Italian Institute of Technology](https://www.iit.it/en-US/home)</b> in Genoa, Italy, first as a *PostDoc* and later as a *Researcher*, to further advance these methodologies in collaboration with machine learning experts, while applying them to real-world applications in heterogeneous catalysis, such as ammonia synthesis and decomposition. 
 
-**Code development**: I enjoy creating new algorithms and making them accessible to the community: see the [code](code.html) page for more.
+**Code development**: I enjoy creating new algorithms and making them accessible to the community: see the [code](/code/) page for more.
