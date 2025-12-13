@@ -56,6 +56,14 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
+    <!-- Talks -->
+    {% if page.talks and page.talks.enabled %}
+      <h2>
+        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">news</a>
+      </h2>
+      {% include talks.liquid limit=true %}
+    {% endif %}
+
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
