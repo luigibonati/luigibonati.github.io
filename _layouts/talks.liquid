@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: default
 ---
-
+{% assign year = page.date | date: '%Y' %}
 {% assign t = page.type | default: "Talk" %}
 {% assign d = page.dates | default: page.date | date: "%b %d, %Y" %}
 
@@ -14,23 +14,7 @@ layout: post
 
 <div class="post">
   <header class="post-header">
-    <div class="card p-3 mb-3">
-      <h1 class="post-title mb-2">{{ page.title }}</h1>
-
-      <p class="post-meta">
-        {% if t %}<div><strong>Type:</strong> {{ t }}</div>{% endif %}
-        {% if d %}<div><strong>Dates:</strong> {{ d }}</div>{% endif %}
-        {% if page.location %}<div><strong>Location:</strong> {{ page.location }}</div>{% endif %}
-        {% if page.description %}<div class="mt-2"><strong>Description:</strong> {{ page.description }}</div>{% endif %}
-
-        {% if page.website %}
-          <div class="mt-2">
-            <strong>Website:</strong>
-            <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ page.website }}</a>
-          </div>
-        </p>
-        {% endif %}
-      </div>
+    <h1 class="post-title">{{ page.title }}</h1>
   </header>
 
   <article class="post-content">
@@ -40,6 +24,18 @@ layout: post
       </div>
       <hr>
     {% endif %}
+    <div class="card p-3 mb-3">
+        {% if t %}<div><strong>Type:</strong> {{ t }}</div>{% endif %}
+        {% if d %}<div><strong>Dates:</strong> {{ d }}</div>{% endif %}
+        {% if page.location %}<div><strong>Location:</strong> {{ page.location }}</div>{% endif %}
+        {% if page.description %}<div class="mt-2"><strong>Description:</strong> {{ page.description }}</div>{% endif %}
+
+        {% if page.website %}
+          <div class="mt-2">
+            <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer"><strong>Website:</strong></a>
+          </div>
+        {% endif %}
+    </div>
     <div id="markdown-content">
       {{ content }}
     </div>
