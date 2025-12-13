@@ -1,12 +1,11 @@
 ---
 layout: talk
-title: TEST TITLE
-type: Seminar
-date: 2025-11-19
-description: Machine learning and enhanced sampling
-website: https://www.cecam.org/
-location: EPFL, Lausanne, CH
+title: Conference on Molecular Modeling for Energy and the Environment
+type: Invited Talk
+date: 2025-10-8
+dates: Oct. 8-9, 2025
+description: Conference
+website: https://www.supsi.ch/en/convegno-sulla-modellazione-molecolare-per-l-energia-e-l-ambiente
+location: University of Applied Sciences and Arts of Southern Switzerland (SUPSI), Lugano, Switzerland
 inline: false
 ---
-
-further description

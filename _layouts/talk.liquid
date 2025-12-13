@@ -24,31 +24,35 @@ layout: default
       </div>
       <hr>
     {% endif %}
-    <div class="talk-meta">
-      <div class="label">Type</div>
-      <div class="value">{{ page.type }}</div>
+    <div class="card talk-card">
+      <div class="talk-meta">
+        <div class="label">Type</div>
+        <div class="value">{{ page.type }}</div>
 
-      {% if page.description %}
-        <div class="label">Description</div>
-        <div class="value">{{ page.description }}</div>
-      {% endif %}
+        <div class="label">Dates</div>
+        <div class="value">{{ d }}</div>
 
-      {% if page.location %}
-        <div class="label">Location</div>
-        <div class="value">{{ page.location }}</div>
-      {% endif %}
+        {% if page.location %}
+          <div class="label">Location</div>
+          <div class="value">{{ page.location }}</div>
+        {% endif %}
 
-      <div class="label">Dates</div>
-      <div class="value">{{ d }}</div>
+        {% if page.description %}
+          <div class="label">Description</div>
+          <div class="value">{{ page.description }}</div>
+        {% endif %}
 
-      {% if page.website %}
-        <div class="value">
-          <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">
-            <div class="label">Website</div>
-          </a>
-        </div>
-      {% endif %}
+        {% if page.website %}
+          <div class="label">Website</div>
+          <div class="value">
+            <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">
+              {{ page.website }}
+            </a>
+          </div>
+        {% endif %}
+      </div>
     </div>
+    
     <div id="markdown-content">
       {{ content }}
     </div>
