@@ -37,7 +37,21 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "news-the-new-website-is-online-work-in-progress",
+        },{id: "dropdown-talks",
+              title: "talks",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/talks/";
+              },
+            },{id: "dropdown-news",
+              title: "news",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/news/";
+              },
+            },{id: "news-the-new-website-is-online-work-in-progress",
           title: 'The new website is online, work in progress!',
           description: "",
           section: "News",},{id: "news-postdoc-position-in-ml-for-atomistic-simulations",
