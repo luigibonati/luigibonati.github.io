@@ -84,7 +84,12 @@ ninja.data = [{
             },},{id: "talks-test",
           title: 'TEST',
           description: "",
-          section: "Talks",},{
+          section: "Talks",},{id: "talks-20251118-example-post",
+          title: '20251118 Example Post',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/20251118-example-post.html";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
