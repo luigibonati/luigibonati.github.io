@@ -1,9 +1,12 @@
 ---
 layout: default
 ---
-{% assign year = page.date | date: '%Y' %}
 {% assign t = page.type | default: "Talk" %}
-{% assign d = page.dates | default: page.date | date: "%b %d, %Y" %}
+{% if page.dates %}
+  {% assign d = page.dates %}
+{% else %}
+  {% assign d = page.date | date: "%b %d, %Y" %}
+{% endif %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -32,6 +35,11 @@ layout: default
         <div class="label">Dates</div>
         <div class="value">{{ d }}</div>
 
+        {% if page.organizer %}
+          <div class="label">Organizer</div>
+          <div class="value">{{ page.organizer }}</div>
+        {% endif %}
+
         {% if page.location %}
           <div class="label">Location</div>
           <div class="value">{{ page.location }}</div>
@@ -52,7 +60,7 @@ layout: default
         {% endif %}
       </div>
     </div>
-    
+
     <div id="markdown-content">
       {{ content }}
     </div>

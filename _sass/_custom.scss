@@ -2,6 +2,12 @@
  * Custom style 
  ******************************************************************************/
 
+/* Card wrapper for talk metadata */
+.talk-card {
+  padding: 1rem;              /* inside the card */
+  margin: 1.8rem 0.8rem;      /* top/bottom | left/right */
+}
+
 .talk-meta {
   display: grid;
   grid-template-columns: 7rem 1fr;
