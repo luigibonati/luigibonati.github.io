@@ -1,8 +1,9 @@
 ---
-layout: post
-date: 2025-11-19 08:00:00-0400
+layout: talk
+title: TEST TITLE
+type: Seminar
+date: 2025-11-19
+description: Machine learning and enhanced sampling
+website: https://www.cecam.org/
 inline: false
-related_posts: false
 ---
-
-TEST
