@@ -255,6 +255,8 @@ def render_markdown(t: dict) -> str:
         if key in t and t[key] not in (None, "", []):
             if key == "inline":
                 lines.append(f"{key}: {'true' if t[key] else 'false'}" )
+            elif key == "title" or key == "description" or key == "location":
+                lines.append(f'{key}: \"{t[key]}\"')
             else:
                 lines.append(f"{key}: {t[key]}")
     lines.append("---")
