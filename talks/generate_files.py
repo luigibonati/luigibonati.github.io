@@ -253,7 +253,10 @@ def render_markdown(t: dict) -> str:
     lines = ["---"]
     for key in order:
         if key in t and t[key] not in (None, "", []):
-            lines.append(f"{key}: {t[key]}")
+            if key == "inline":
+                lines.append(f"{key}: {'true' if t[key] else 'false'}" )
+            else:
+                lines.append(f"{key}: {t[key]}")
     lines.append("---")
 
     # Optional body text

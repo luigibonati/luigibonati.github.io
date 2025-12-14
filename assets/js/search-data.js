@@ -175,11 +175,6 @@ ninja.data = [{
           description: "Conference on Molecular Modeling for Energy and the Environment",
           section: "Talks",handler: () => {
               window.location.href = "/talks/251008-lugano.html";
-            },},{id: "talks-conference-on-molecular-modeling-for-energy-and-the-environment",
-          title: 'Conference on Molecular Modeling for Energy and the Environment',
-          description: "Conference",
-          section: "Talks",handler: () => {
-              window.location.href = "/talks/example.html";
             },},{id: "talks-molsimeng-2025",
           title: 'MolSimEng 2025',
           description: "Molecular Simulation and Engineering workshop",
