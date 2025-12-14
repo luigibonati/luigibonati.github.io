@@ -95,15 +95,102 @@ ninja.data = [{
           description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlp.html";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/220328-online.html";
+            },},{id: "talks-machine-learning-augmented-sampling-for-the-molecular-sciences",
+          title: 'Machine Learning Augmented Sampling for the Molecular Sciences',
+          description: "CECAM Workshop on machine learning augmented sampling",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/220511-lausanne.html";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/220628-paris.html";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/220711-vienna.html";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/230531-college-park.html";
+            },},{id: "talks-seminar-biomolecular-amp-pharmaceutical-modelling-group-unige",
+          title: 'Seminar @ Biomolecular &amp;amp; Pharmaceutical Modelling Group, UNIGE',
+          description: "Seminar at the Biomolecular &amp; Pharmaceutical Modelling Group",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/230630-geneva.html";
+            },},{id: "talks-enhanced-sampling-methods-with-plumed",
+          title: 'Enhanced sampling methods with PLUMED',
+          description: "CECAM Flagship School on enhanced sampling with PLUMED",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/230705-lausanne.html";
+            },},{id: "talks-quantum-on-machine-learning-enhanced-sampling",
+          title: 'Quantum² on machine learning enhanced sampling',
+          description: "CECAM Workshop on machine learning enhanced sampling",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/231129-lausanne.html";
+            },},{id: "talks-initiative-for-computational-catalysis-inaugural-workshop",
+          title: 'Initiative for Computational Catalysis Inaugural Workshop',
+          description: "Inaugural workshop of the Initiative for Computational Catalysis",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/240219-new-york.html";
+            },},{id: "talks-1st-virapid-workshop",
+          title: '1st Virapid workshop',
+          description: "Virapid (Vienna Research Platform on Accelerating Photoreaction Discovery) workshop on accelerating photoreaction discovery",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/240226-vienna.html";
+            },},{id: "talks-ictp-atomistic-simulations-seminar-series",
+          title: 'ICTP Atomistic Simulations Seminar Series',
+          description: "Atomistic Simulations Seminar Series",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/240703-trieste.html";
+            },},{id: "talks-seminar-impmc-sorbonne-university",
+          title: 'Seminar @ IMPMC, Sorbonne University',
+          description: "Seminar at the Institute of Mineralogy, Materials Physics and Cosmochemistry, Sorbonne University",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/241114-paris.html";
+            },},{id: "talks-combining-ai-and-physical-modeling-for-contemporary-simulations",
+          title: 'Combining AI and physical modeling for contemporary simulations',
+          description: "CECAM and EPFL AI Workshop",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/241211-lausanne.html";
+            },},{id: "talks-inferring-kinetics-thermodynamics-and-mechanisms-from-enhanced-sampling-simulations",
+          title: 'Inferring Kinetics, Thermodynamics, and Mechanisms from Enhanced Sampling Simulations',
+          description: "Symposium at the ACS Spring Meeting",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/250322-san-diego.html";
+            },},{id: "talks-",
+          title: '',
+          description: "",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/250908-trieste.html";
+            },},{id: "talks-conference-on-molecular-modeling-for-energy-and-the-environment",
+          title: 'Conference on Molecular Modeling for Energy and the Environment',
+          description: "Conference on Molecular Modeling for Energy and the Environment",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/251008-lugano.html";
             },},{id: "talks-conference-on-molecular-modeling-for-energy-and-the-environment",
           title: 'Conference on Molecular Modeling for Energy and the Environment',
           description: "Conference",
           section: "Talks",handler: () => {
-              window.location.href = "/talks/20251118-example-post.html";
-            },},{id: "talks-test",
-          title: 'TEST',
-          description: "",
-          section: "Talks",},{
+              window.location.href = "/talks/example.html";
+            },},{id: "talks-molsimeng-2025",
+          title: 'MolSimEng 2025',
+          description: "Molecular Simulation and Engineering workshop",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/251017-milan.html";
+            },},{id: "talks-2026-total-energy-mini-workshop",
+          title: '2026 Total Energy Mini Workshop',
+          description: "Total Energy Mini Workshop",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/260112-berkeley.html";
+            },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
