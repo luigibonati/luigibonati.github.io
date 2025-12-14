@@ -95,9 +95,9 @@ ninja.data = [{
           description: "Active and transfer learning for rare events",
           section: "Projects",handler: () => {
               window.location.href = "/projects/mlp.html";
-            },},{id: "talks-",
-          title: '',
-          description: "",
+            },},{id: "talks-plumed-masterclass-machine-learning-collective-variables-with-pytorch",
+          title: 'PLUMED Masterclass: Machine learning collective variables with PyTorch',
+          description: "Online lectures and hands-on on machine-learning collective variables with PLUMED",
           section: "Talks",handler: () => {
               window.location.href = "/talks/220328-online.html";
             },},{id: "talks-machine-learning-augmented-sampling-for-the-molecular-sciences",
@@ -105,19 +105,19 @@ ninja.data = [{
           description: "CECAM Workshop on machine learning augmented sampling",
           section: "Talks",handler: () => {
               window.location.href = "/talks/220511-lausanne.html";
-            },},{id: "talks-",
-          title: '',
-          description: "",
+            },},{id: "talks-chasing-cvs-using-machine-learning-from-methods-development-to-biophysical-applications",
+          title: 'Chasing CVs using Machine Learning: from methods development to biophysical applications',
+          description: "CECAM Workshop on machine-learning-based collective variables",
           section: "Talks",handler: () => {
               window.location.href = "/talks/220628-paris.html";
-            },},{id: "talks-",
-          title: '',
-          description: "",
+            },},{id: "talks-doctoral-school-machine-learning-for-materials-hard-and-soft",
+          title: 'Doctoral School: Machine Learning for Materials Hard and Soft',
+          description: "Lectures on free energies and enhanced sampling at the ESI-DCAFM-TACO-VDSP Summer School",
           section: "Talks",handler: () => {
               window.location.href = "/talks/220711-vienna.html";
-            },},{id: "talks-",
-          title: '',
-          description: "",
+            },},{id: "talks-machine-learning-and-chemistry-are-we-there-yet",
+          title: 'Machine Learning and Chemistry: Are We There Yet?',
+          description: "MolSSI workshop on machine learning and chemistry",
           section: "Talks",handler: () => {
               window.location.href = "/talks/230531-college-park.html";
             },},{id: "talks-seminar-biomolecular-amp-pharmaceutical-modelling-group-unige",
@@ -165,9 +165,9 @@ ninja.data = [{
           description: "Symposium at the ACS Spring Meeting",
           section: "Talks",handler: () => {
               window.location.href = "/talks/250322-san-diego.html";
-            },},{id: "talks-",
-          title: '',
-          description: "",
+            },},{id: "talks-conference-on-frontiers-in-atomistic-simulations-from-physics-to-chemistry-and-biology",
+          title: 'Conference on Frontiers in Atomistic Simulations: from Physics to Chemistry and Biology',
+          description: "Conference on Frontiers in Atomistic Simulations",
           section: "Talks",handler: () => {
               window.location.href = "/talks/250908-trieste.html";
             },},{id: "talks-conference-on-molecular-modeling-for-energy-and-the-environment",
