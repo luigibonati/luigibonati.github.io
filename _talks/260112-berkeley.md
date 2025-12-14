@@ -7,5 +7,5 @@ dates: 12 Jan 2026
 description: Total Energy Mini Workshop 
 website: https://sites.google.com/berkeley.edu/totalenergyberkeley/home?authuser=0
 location: University of California, Berkeley, USA
-inline: False
+inline: false
 ---

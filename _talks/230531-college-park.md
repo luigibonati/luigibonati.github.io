@@ -7,5 +7,5 @@ dates: 31 May – 2 Jun 2023
 description: MolSSI workshop on machine learning and chemistry
 website: https://molssi.org/machine-learning-and-chemistry-are-we-there-yet/
 location: MolSSI workshop, University of Maryland, College Park, USA
-inline: False
+inline: false
 ---

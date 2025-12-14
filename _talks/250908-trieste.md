@@ -7,5 +7,5 @@ dates: 8–12 Sep 2025
 description: Conference on Frontiers in Atomistic Simulations
 website: https://indico.ictp.it/event/10863/
 location: ICTP, Trieste, IT
-inline: False
+inline: false
 ---

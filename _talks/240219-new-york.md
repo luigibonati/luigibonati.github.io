@@ -7,5 +7,5 @@ dates: 19–21 Feb 2024
 description: Inaugural workshop of the Initiative for Computational Catalysis
 website: https://www.simonsfoundation.org/event/inaugural-workshop-of-the-initiative-for-computational-catalysis/
 location: Flatiron Institute, New York, USA
-inline: False
+inline: false
 ---
