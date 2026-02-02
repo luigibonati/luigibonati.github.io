@@ -186,11 +186,16 @@ ninja.data = [{
           description: "Molecular Simulation and Engineering workshop",
           section: "Talks",handler: () => {
               window.location.href = "/talks/251017-milan.html";
-            },},{id: "talks-2026-total-energy-mini-workshop",
-          title: '2026 Total Energy Mini Workshop',
+            },},{id: "talks-berkeley-total-energy-mini-workshop",
+          title: 'Berkeley Total Energy Mini Workshop',
           description: "Total Energy Mini Workshop",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260112-berkeley.html";
+            },},{id: "talks-seminar-unipi",
+          title: 'Seminar @ UNIPI',
+          description: "Computer Science Department, University of Pisa",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/260212-pisa.html";
             },},{
         id: 'social-cv',
         title: 'CV',
