@@ -1,6 +1,6 @@
 ---
 layout: talk
-title: "2026 Total Energy Mini Workshop"
+title: "Berkeley Total Energy Mini Workshop"
 type: Invited talk
 date: 2026-01-12
 dates: 12 Jan 2026
