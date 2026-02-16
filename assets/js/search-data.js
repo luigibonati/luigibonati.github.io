@@ -191,8 +191,8 @@ ninja.data = [{
           description: "Total Energy Mini Workshop",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260112-berkeley.html";
-            },},{id: "talks-seminar-unipi",
-          title: 'Seminar @ UNIPI',
+            },},{id: "talks-seminar-university-di-pisa",
+          title: 'Seminar @ University di Pisa',
           description: "Computer Science Department, University of Pisa",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260212-pisa.html";
