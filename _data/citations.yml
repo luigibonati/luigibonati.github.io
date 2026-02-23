@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-02-20'
+  last_updated: '2026-02-23'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
-    citations: 57
+    citations: 58
     title: Unraveling the crystallization kinetics of the Ge2Sb2Te5 phase change compound with a machine-learned interatomic potential
     year: '2024'
   XPXf728AAAAJ:3fE2CSJIrl8C:
-    citations: 91
+    citations: 92
     title: 'A unified framework for machine learning collective variables for enhanced sampling simulations: mlcolvar'
     year: '2023'
   XPXf728AAAAJ:4DMP91E08xMC:
@@ -14,7 +14,7 @@ papers:
     title: Iron nitride formation and decomposition during ammonia decomposition over a wustite-based bulk iron catalyst
     year: '2024'
   XPXf728AAAAJ:4JMBOYKVnBMC:
-    citations: 14
+    citations: 16
     title: 'Enhanced sampling in the age of machine learning: algorithms and applications'
     year: '2025'
   XPXf728AAAAJ:7PzlFSSx8tAC:
@@ -74,7 +74,7 @@ papers:
     title: Ab-initio machine learning potentials for phase transitions and phase diagrams using enhanced sampling methods
     year: Unknown Year
   XPXf728AAAAJ:Wp0gIr-vW9MC:
-    citations: 24
+    citations: 25
     title: Descriptor-free collective variables from geometric graph neural networks
     year: '2024'
   XPXf728AAAAJ:YOwf2qJgpHMC:
