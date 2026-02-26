@@ -1,0 +1,40 @@
+<div class="news">
+  {% if site.news != blank %}
+    {% assign news_entries = site.news | reverse %}
+    {% for item in news_entries %}
+      <div class="card mt-3 p-3">
+        <div class="d-flex flex-column flex-md-row align-items-md-start">
+          <div class="mr-md-4 mb-2 mb-md-0">
+            <span class="badge badge-pill">{{ item.date | date: '%b %d, %Y' }}</span>
+          </div>
+          <div class="flex-grow-1">
+            {% if item.inline %}
+              <div class="card-text">{{ item.content | remove: '<p>' | remove: '</p>' | emojify }}</div>
+            {% else %}
+              {% if item.redirect %}
+                {% if item.redirect contains '://' %}
+                  {% assign entry_url = item.redirect %}
+                {% else %}
+                  {% assign entry_url = item.redirect | relative_url %}
+                {% endif %}
+              {% else %}
+                {% assign entry_url = item.url | relative_url %}
+              {% endif %}
+              <h5 class="card-title mb-1">
+                <a class="news-title" href="{{ entry_url }}" {% if item.redirect contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                  {{ item.title }}
+                </a>
+              </h5>
+              <p class="card-text mb-2">{{ item.content | strip_html | truncate: 220 }}</p>
+              <a href="{{ entry_url }}" class="btn btn-sm btn-outline-primary" {% if item.redirect contains '://' %}target="_blank" rel="noopener noreferrer"{% endif %}>
+                Read more
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>
