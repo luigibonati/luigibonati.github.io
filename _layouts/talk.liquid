@@ -7,6 +7,7 @@ layout: default
 {% else %}
   {% assign d = page.date | date: "%b %d, %Y" %}
 {% endif %}
+{% assign body = content | strip %}
 
 {% if page._styles %}
   <!-- Page/Post style -->
@@ -18,6 +19,13 @@ layout: default
 <div class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-description">
+      <span class="talk-type-badge mr-2">{{ t }}</span>
+      <span>{{ d }}</span>
+      {% if page.location %}
+        <span>&nbsp;•&nbsp;{{ page.location }}</span>
+      {% endif %}
+    </p>
   </header>
 
   <article class="post-content">
@@ -27,51 +35,27 @@ layout: default
       </div>
       <hr>
     {% endif %}
-    <div class="card talk-card">
-      <div class="talk-meta">
-        <div class="label">Type</div>
-        <div class="value">{{ page.type }}</div>
+    <div class="card mt-3 p-3">
+      {% if page.description %}
+        <p class="card-text mb-2">{{ page.description }}</p>
+      {% endif %}
 
-        <div class="label">Dates</div>
-        <div class="value">{{ d }}</div>
-
+      <div class="card-text">
         {% if page.organizer %}
-          <div class="label">Organizer</div>
-          <div class="value">{{ page.organizer }}</div>
+          <div><strong>Organizer:</strong> {{ page.organizer }}</div>
         {% endif %}
-
-        {% if page.location %}
-          <div class="label">Location</div>
-          <div class="value">{{ page.location }}</div>
-        {% endif %}
-
-        {% if page.description %}
-          <div class="label">Description</div>
-          <div class="value">{{ page.description }}</div>
-        {% endif %}
-
         {% if page.website %}
-          {% assign pretty_url = page.website
-            | remove: "https://"
-            | remove: "http://"
-            | split: "/" | first
-          %}
-          <div class="label">Website</div>
-          <div class="value">
-            <a href="{{ page.website }}"
-              class="pretty-link"
-              target="_blank"
-              rel="noopener noreferrer">
-              {{ pretty_url }}
-            </a>
-          </div>
+          {% assign pretty_url = page.website | remove: "https://" | remove: "http://" | split: "/" | first %}
+          <div><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ pretty_url }}</a></div>
         {% endif %}
       </div>
     </div>
 
-    <div id="markdown-content">
-      {{ content }}
-    </div>
+    {% if body != "" %}
+      <div id="markdown-content" class="mt-3">
+        {{ content }}
+      </div>
+    {% endif %}
   </article>
 
   {% if page.citation %}
