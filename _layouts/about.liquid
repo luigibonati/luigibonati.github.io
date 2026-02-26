@@ -56,14 +56,6 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Talks -->
-    {% if page.talks and page.talks.enabled %}
-      <h2>
-        <a href="{{ '/talks/' | relative_url }}" style="color: inherit">talks</a>
-      </h2>
-      {% include talks.liquid limit=true %}
-    {% endif %}
-
     <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
@@ -75,7 +67,7 @@ layout: default
     <!-- Social -->
     {% if page.social %}
       <div class="social">
-        <div class="contact-icons">{% include social.liquid %}</div>
+        <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>

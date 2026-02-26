@@ -1,13 +1,13 @@
 ---
 layout: page
-title: updates
+title: submenus
 nav: true
 nav_order: 8
 dropdown: true
 children:
-  - title: talks
-    permalink: /talks/
+  - title: bookshelf
+    permalink: /books/
   - title: divider
-  - title: news
-    permalink: /news/
+  - title: blog
+    permalink: /blog/
 ---
