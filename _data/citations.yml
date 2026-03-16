@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-03-13'
+  last_updated: '2026-03-16'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
-    citations: 59
+    citations: 61
     title: Unraveling the crystallization kinetics of the Ge2Sb2Te5 phase change compound with a machine-learned interatomic potential
     year: '2024'
   XPXf728AAAAJ:3fE2CSJIrl8C:
@@ -10,7 +10,7 @@ papers:
     title: 'A unified framework for machine learning collective variables for enhanced sampling simulations: mlcolvar'
     year: '2023'
   XPXf728AAAAJ:4DMP91E08xMC:
-    citations: 22
+    citations: 23
     title: Iron nitride formation and decomposition during ammonia decomposition over a wustite-based bulk iron catalyst
     year: '2024'
   XPXf728AAAAJ:4JMBOYKVnBMC:
@@ -50,7 +50,7 @@ papers:
     title: How poisoning is avoided in a step of relevance to the haber-bosch catalysis
     year: '2023'
   XPXf728AAAAJ:TQgYirikUcIC:
-    citations: 10
+    citations: 11
     title: Fast and Fourier features for transfer learning of interatomic potentials
     year: '2025'
   XPXf728AAAAJ:ULOm3_A8WrAC:
