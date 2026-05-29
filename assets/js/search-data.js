@@ -74,6 +74,9 @@ ninja.data = [{
           section: "News",},{id: "news-welcome-to-guillaume-master-student-internship-from-école-normale-supérieure-paris",
           title: 'Welcome to Guillaume, master student (internship) from École normale supérieure, Paris!',
           description: "",
+          section: "News",},{id: "news-a-new-paper-has-been-accepted-at-iclr",
+          title: 'A new paper has been accepted at ICLR!',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -244,6 +247,11 @@ ninja.data = [{
           description: "Computer Science Department, University of Pisa",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260212-pisa.html";
+            },},{id: "talks-machine-learned-interatomic-potentials-for-chemical-reactivity",
+          title: 'Machine learned interatomic potentials for chemical reactivity',
+          description: "CECAM Flagship Workshop",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/260615-paris.html";
             },},{
         id: 'social-cv',
         title: 'CV',
