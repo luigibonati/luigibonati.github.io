@@ -95,7 +95,12 @@
     }
   ],
 
-  "certificates": [],
+  "certificates": [  {
+    "name": "National Scientific Qualification for Associate Professorship, FIS/02",
+    "date": "2026",
+    "issuer": "Italian Ministry of University and Research"
+  }
+],
   "publications": [],
   "skills": [],
   "languages": [],
