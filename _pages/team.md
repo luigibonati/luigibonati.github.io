@@ -22,4 +22,3 @@ I am always open to collaborations with students, researchers, and groups intere
 
 - <span style="color: var(--global-theme-color)">Simone Perego</span>, PhD Student, 2021-2025
 - <span style="color: var(--global-theme-color)">Line Mouffac</span>, Visiting PhD (Sorbonne), Oct. 2024 March 2025
-
