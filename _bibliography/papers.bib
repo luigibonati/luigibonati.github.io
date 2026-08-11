@@ -530,7 +530,8 @@
   month = {11},
   doi = {10.1016/j.jcat.2025.116576},
   abstract = {Stepped surfaces are known to exhibit higher catalytic activity than flat ones in ammonia synthesis, yet an atomistic-level understanding remains elusive. In this work, we employ molecular dynamics simulations powered by machine learning potentials combined with enhanced sampling techniques to study the initial stages of the Haber–Bosch process, namely the dissociative chemisorption of N2 under operando temperature conditions. We compare a flat Fe(110) surface with a series of stepped Fe(110) surfaces of increasing step density. Our results show that the presence of steps significantly lowers the dissociation barrier. Importantly, the catalytic enhancement is not correlated with the step density but stems from the intrinsic reactivity of the step sites themselves. We further investigate the fate of the dissociated nitrogen atoms by computing escape times from the step edges, allowing us to assess the likelihood and timescale of step poisoning.},
-  google_scholar_id={j3f4tGmQtD8C}
+  google_scholar_id={j3f4tGmQtD8C},
+  bibtex_show={true}
 }
 
 @article{10.1088/2053-1583/ae2692,
@@ -538,12 +539,13 @@
   title={From trial-and-error to intelligent workflows: machine learning and simulations for scalable 2D material synthesis},
   journal={2D Materials},
   url={http://iopscience.iop.org/article/10.1088/2053-1583/ae2692},
-  year={2025},
+  year={2026},
   abbr={2D Mat.},
   preview={2025-2d-perspective.png},
   month = {12},
   abstract={Wafer-scale growth of two-dimensional (2D) materials remains an unsolved challenge. Current synthesis still depends on trial-and-error, limiting reproducibility and slowing progress toward practical technologies. This perspective argues that machine learning (ML) and atomistic simulations can provide the foundation for intelligent synthesis workflows. Gradient-free optimization methods, including Bayesian optimization and adaptive Monte Carlo, already demonstrated that high-quality growth conditions can be learned efficiently from experimental feedback. At the same time, atomistic simulations deliver physical priors, synthetic data, and mechanistic insights that focus the search and mitigate data scarcity. We propose a synergistic framework where experiments, simulations, and ML form a closed loop: experiments provide validation, simulations constrain exploration, and ML uncovers patterns and proposes new recipes. Embedding this intelligence into growth protocols can turn 2D materials synthesis into a reproducible and scalable methodology, moving beyond intuition-driven experimentation, accelerating their translation into wafer-scale technologies. While current demonstrations remain system-specific, this perspective provides a pathway toward wafer-scale technologies and data-driven discovery.},
-  google_scholar_id={iH-uZ7U-co4C}
+  google_scholar_id={iH-uZ7U-co4C},
+  doi = {10.1088/2053-1583/ae2692}
 }
 
 @article{bianchi2025electrochemical,
@@ -554,6 +556,51 @@
   arxiv={2511.19338},
   abbr={arXiv},
   month={11},
+  abs={},
   abstract={Simulating electrified metal/water interfaces with explicit solvent under constant potential is essential for understanding electrochemical processes, yet remains prohibitively expensive with ab initio methods. We present TRECI, a data-efficient workflow for constructing machine learning force-fields (ML-FFs) that achieve ab initio-level accuracy in electronically grand-canonical molecular dynamics. By leveraging transfer learning from general-purpose and domain-specific models, TRECI enables stable and accurate simulations across a wide potential range using a reduced number of reference configurations. This efficiency allows the use of high-level meta-GGA functionals and rigorous surface-electrification schemes. Applied to Cu(111)/water, models trained on just one thousand configurations yield accurate molecular dynamics simulations, capturing bias-dependent solvent restructuring effects not previously reported. TRECI offers a general strategy for characterising diverse materials and interfacial chemistries, significantly lowering the cost of realistic constant-potential simulations and expanding access to quantitative electrochemical modelling.},
   google_scholar_id={r0BpntZqJG4C}
 }
+
+@article{turri2026self,
+  title={Self-supervised evolution operator learning for high-dimensional dynamical systems},
+  author={Turri, Giacomo and Bonati, Luigi and Zhu, Kai and Novelli, Pietro and others},
+  journal={International Conference on Learning Representations},
+  volume={2026},
+  pages={66575--66604},
+  year={2026},
+  abbr = {ICLR},
+  url = {https://proceedings.iclr.cc/paper_files/paper/2026/file/6d55265321be68a6a346b082eafb593b-Paper-Conference.pdf},
+  google_scholar_id={e5wmG9Sq2KIC},
+  abstract={We introduce an end-to-end approach to learn the evolution operators of large-scale non-linear dynamical systems, such as those describing complex natural phenomena. Evolution operators are particularly well-suited for analyzing systems that exhibit spatio-temporal patterns and have become a key analytical tool across various scientific communities. As terabyte-scale weather datasets and simulation tools capable of running millions of molecular dynamics steps per day are becoming commodities, our approach provides an effective tool to make sense of them from a data-driven perspective. The core of it lies in a remarkable connection between self-supervised representation learning methods and the recently established learning theory of evolution operators. We deploy our approach across multiple scientific domains: explaining the folding dynamics of small proteins, the binding process of drug-like molecules in host sites, and autonomously finding patterns in climate data. Our code is available open-source at: https://github. com/pietronvll/encoderops.},
+  preview={2026-iclr.png},
+  bibtex_show={true},
+}
+
+@article{zhu2026contrastive,
+  title={Contrastive learning of dynamical representations for enhanced molecular sampling},
+  author={Zhu, Kai and Zhang, Jintu and Novelli, Pietro and Hou, Tingjun and Bonati, Luigi},
+  year={2026},
+  journal={arXiv},
+  abbr = {arXiv},
+  url = {http://arxiv.org/abs/2606.15495},
+  arxiv = {2606.15495}, 
+  google_scholar_id={k_IJM867U9cC},
+  preview={2026-selftica.png},
+  abstract ={Identifying collective variables that capture slow dynamical modes is essential for sampling rare events in complex systems. Existing machine-learning approaches often require predefined metastable states, carefully chosen descriptors, or training trajectories with high-quality kinetic information. Here, we introduce SelfTICA, a self-supervised contrastive-learning framework that reformulates collective-variable discovery as dynamical representation learning. SelfTICA defines positive and negative pairs from time-lagged molecular configurations, learns reusable features through a contrastive objective linked to spectral variational principles, and extracts orthogonal slow modes by applying time-lagged independent component analysis in the learned representation space. By decoupling representation learning from slow-mode extraction, SelfTICA avoids direct optimization of eigendecomposition-based objectives and enables spectra and collective variables to be evaluated across lag times without retraining. Across different atomistic systems, SelfTICA learns dynamical representations from limited, biased, or exploratory data and converts them into collective variables that accelerate rare-event exploration and improve free-energy convergence.},
+  bibtex_show={true}
+}
+
+
+@article{doblhoff2026atomistic,
+  title={Atomistic Modeling for Electro-chemical Reactions},
+  author={Doblhoff-Dier, K and Ballotta, B and Bonati, L and Bukas, VJ and Calle-Vallejo, F and Cucinotta, CS and Exner, KS and Garc{\'\i}a-Melchor, M and Giordano, L and Honkala, K and others},
+  year={2026},
+  journal={arXiv},
+  abbr = {arXiv},
+  url = {http://arxiv.org/abs/2607.07933},
+  arxiv = {2607.07933}, 
+  google_scholar_id={maZDTaKrznsC},
+  preview={2026-electrochem.png},
+  bibtex_show={true}
+}
+
