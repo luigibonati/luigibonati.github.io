@@ -247,6 +247,11 @@ ninja.data = [{
           description: "Computer Science Department, University of Pisa",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260212-pisa.html";
+            },},{id: "talks-1st-international-school-on-computational-catalysis",
+          title: '1st International School on Computational Catalysis',
+          description: "Doctoral School",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/260610-modena.html";
             },},{id: "talks-machine-learned-interatomic-potentials-for-chemical-reactivity",
           title: 'Machine learned interatomic potentials for chemical reactivity',
           description: "CECAM Flagship Workshop",
