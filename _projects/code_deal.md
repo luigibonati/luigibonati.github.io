@@ -18,9 +18,9 @@ DEAL selects non-redundant structures from atomistic trajectories via Sparse Gau
 
 **Highlights**
 
-* Select structures based on SGP predictive variance. 
-* Analyze selected structures (e.g. along the trajectory or as a function of a CV)
-* Interactive visualization using [chemiscope](https://chemiscope.org/)
+- Select structures based on SGP predictive variance.
+- Analyze selected structures (e.g. along the trajectory or as a function of a CV)
+- Interactive visualization using [chemiscope](https://chemiscope.org/)
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">

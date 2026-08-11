@@ -1,5 +1,4 @@
 {
-
   "work": [
     {
       "name": "Italian Institute of Technology",
@@ -8,7 +7,10 @@
       "url": "",
       "startDate": "2024-10-01",
       "summary": "AI4Science, developing and applying ML techniques to atomistic simulations.",
-      "highlights": ["Contributed to the `Future of Artificial Intelligence Research` (<a href='https://fondazione-fair.it/en/'>FAIR</a>) foundation, funded by the EU and the Italian MIUR.", "Visiting collaborator at the Initiative for Computational Catalysis of the <a href='https://www.simonsfoundation.org/flatiron/'>Flatiron Insitute</a> (New York City, USA)."]
+      "highlights": [
+        "Contributed to the `Future of Artificial Intelligence Research` (<a href='https://fondazione-fair.it/en/'>FAIR</a>) foundation, funded by the EU and the Italian MIUR.",
+        "Visiting collaborator at the Initiative for Computational Catalysis of the <a href='https://www.simonsfoundation.org/flatiron/'>Flatiron Insitute</a> (New York City, USA)."
+      ]
     },
     {
       "name": "Italian Institute of Technology (IIT) & AmmoRef research network",
@@ -18,7 +20,10 @@
       "startDate": "2021-01-01",
       "endDate": "2024-09-01",
       "summary": "Atomistic Simulations of catalytic processes.",
-      "highlights": ["Responsible of the atomistic simulations within the AmmoRef network (TransHyDE project 'Ammonia reforming: catalyst synthesis / characterization / mechanisms') funded by the German Federal Ministry of Education and Research.", "Academic-corporate collaborations with chemical industries."]
+      "highlights": [
+        "Responsible of the atomistic simulations within the AmmoRef network (TransHyDE project 'Ammonia reforming: catalyst synthesis / characterization / mechanisms') funded by the German Federal Ministry of Education and Research.",
+        "Academic-corporate collaborations with chemical industries."
+      ]
     }
   ],
 
@@ -35,10 +40,7 @@
       "endDate": "2021-09-01",
       "score": "",
       "summary": "",
-      "courses": [
-        "Thesis: Machine learning and enhanced sampling simulations.",
-        "Awarded with ETH Silver Medal for outstanding doctoral thesis."
-      ]
+      "courses": ["Thesis: Machine learning and enhanced sampling simulations.", "Awarded with ETH Silver Medal for outstanding doctoral thesis."]
     },
     {
       "institution": "Physics, University of Milan",
@@ -95,12 +97,13 @@
     }
   ],
 
-  "certificates": [  {
-    "name": "National Scientific Qualification for Associate Professorship, FIS/02",
-    "date": "2026",
-    "issuer": "Italian Ministry of University and Research"
-  }
-],
+  "certificates": [
+    {
+      "name": "National Scientific Qualification for Associate Professorship, FIS/02",
+      "date": "2026",
+      "issuer": "Italian Ministry of University and Research"
+    }
+  ],
   "publications": [],
   "skills": [],
   "languages": [],
@@ -108,9 +111,7 @@
     {
       "name": "Advisory Board Member",
       "icon": "fa-solid fa-book",
-      "keywords": [
-        "<a href='https://www.sciencedirect.com/journal/materials-today-catalysis'>Materials Today Catalysis</a>, edited by Elsevier."
-      ]
+      "keywords": ["<a href='https://www.sciencedirect.com/journal/materials-today-catalysis'>Materials Today Catalysis</a>, edited by Elsevier."]
     },
     {
       "name": "Management Committee",

@@ -26,8 +26,8 @@ The construction of ML interatomic potentials for phase transitions and chemical
     Left: silicon crystallization. Middle: gallium phase diagram. Right: GeSbTe crystallization.
 </div>
 
-**Data-efficient active learning**. 
-To make the machine learning potentials routinely applicable and to model processes in more realistic conditions and with higher levels of electronic theory, it is essential to have data-efficient techniques. To this end, I have devised a framework that integrates advanced sampling with Gaussian processes and graph neural networks to construct reactive potentials in a highly efficient manner {% cite Perego2024DataSampling %}. This data-efficient active learning (DEAL) scheme enables an ab initio-quality discovery of transition paths and ensures uniform accuracy along them, with a 20-fold increase in data-efficiency with respect to previous approaches. 
+**Data-efficient active learning**.
+To make the machine learning potentials routinely applicable and to model processes in more realistic conditions and with higher levels of electronic theory, it is essential to have data-efficient techniques. To this end, I have devised a framework that integrates advanced sampling with Gaussian processes and graph neural networks to construct reactive potentials in a highly efficient manner {% cite Perego2024DataSampling %}. This data-efficient active learning (DEAL) scheme enables an ab initio-quality discovery of transition paths and ensures uniform accuracy along them, with a 20-fold increase in data-efficiency with respect to previous approaches.
 
 Open-source implementation: [DEAL](code_deal.html).
 
@@ -43,7 +43,7 @@ Open-source implementation: [DEAL](code_deal.html).
     Left: gaussian-process based enhanced sampling exploration of reaction pathways. Right: data-efficient active learning selection.
 </div>
 
-**Transfer learning for atomistic simulations**. 
+**Transfer learning for atomistic simulations**.
 Furthermore, we are also developing transfer learning approaches to extract the representation learned from graph neural networks trained on large datasets and transfer them to new systems via kernel methods {% cite Falk2023Transfer %}. In particular, we combined them with random Fourier features, a large-scale kernel approximation. {% cite Novelli2025FastPotentials %}. This also provides a closed-form fine-tuning strategy for general-purpose potentials such as MACE-MP0, enabling fast and accurate adaptation to new systems or levels of quantum mechanical theory with minimal hyperparameter tuning. This provides a data-efficient framework not only for energy/force predictions but also for stable and accurate MD simulations using just a few tens of training data.
 
 Open-source implementation: [franken](code_franken.html).

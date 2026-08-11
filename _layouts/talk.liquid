@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-{% assign t = page.type | default: "Talk" %}
+{% assign t = page.type | default: 'Talk' %}
 {% if page.dates %}
   {% assign d = page.dates %}
 {% else %}
-  {% assign d = page.date | date: "%b %d, %Y" %}
+  {% assign d = page.date | date: '%b %d, %Y' %}
 {% endif %}
 {% assign body = content | strip %}
 
@@ -45,13 +45,15 @@ layout: default
           <div><strong>Organizer:</strong> {{ page.organizer }}</div>
         {% endif %}
         {% if page.website %}
-          {% assign pretty_url = page.website | remove: "https://" | remove: "http://" | split: "/" | first %}
-          <div><strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ pretty_url }}</a></div>
+          {% assign pretty_url = page.website | remove: 'https://' | remove: 'http://' | split: '/' | first %}
+          <div>
+            <strong>Website:</strong> <a href="{{ page.website }}" target="_blank" rel="noopener noreferrer">{{ pretty_url }}</a>
+          </div>
         {% endif %}
       </div>
     </div>
 
-    {% if body != "" %}
+    {% if body != '' %}
       <div id="markdown-content" class="mt-3">
         {{ content }}
       </div>

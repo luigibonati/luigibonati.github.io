@@ -10,7 +10,7 @@
 "npj Comput. Mater.":
   color: "#cc0000; color:#ffffff"
 
-"JCP": 
+"JCP":
   color: "#002266; color:#ffffff"
 
 "Chem. Rev.":
@@ -19,6 +19,5 @@
 "JCTC":
   color: "#ffcc00"
 
-"ACS Catal.": 
+"ACS Catal.":
   color: "#ffcc00"
-
