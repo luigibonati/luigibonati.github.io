@@ -1,34 +1,34 @@
 metadata:
-  last_updated: '2026-07-29'
+  last_updated: '2026-08-12'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
-    citations: 77
+    citations: 81
     title: Unraveling the crystallization kinetics of the Ge2Sb2Te5 phase change compound with a machine-learned interatomic potential
     year: '2024'
   XPXf728AAAAJ:3fE2CSJIrl8C:
-    citations: 114
+    citations: 118
     title: 'A unified framework for machine learning collective variables for enhanced sampling simulations: mlcolvar'
     year: '2023'
   XPXf728AAAAJ:4DMP91E08xMC:
-    citations: 33
+    citations: 36
     title: Iron nitride formation and decomposition during ammonia decomposition over a wustite-based bulk iron catalyst
     year: '2024'
   XPXf728AAAAJ:4JMBOYKVnBMC:
-    citations: 57
-    title: 'Enhanced sampling in the age of machine learning: algorithms and applications'
-    year: '2025'
+    citations: 63
+    title: 'Enhanced sampling in the age of machine learning: Algorithms and applications'
+    year: '2026'
   XPXf728AAAAJ:7PzlFSSx8tAC:
     citations: 0
     title: A machine-learning interatomic potential for the Ge2Sb2Te5 phase change compound
     year: '2023'
   XPXf728AAAAJ:IWHjjKOFINEC:
-    citations: 68
+    citations: 69
     title: Data efficient machine learning potentials for modeling catalytic reactivity via active learning and enhanced sampling
     year: '2024'
   XPXf728AAAAJ:L8Ckcad2t8MC:
-    citations: 38
+    citations: 40
     title: 'PLUMED Tutorials: A collaborative, community-driven learning ecosystem'
-    year: '2024'
+    year: '2025'
   XPXf728AAAAJ:LkGwnXOMwfcC:
     citations: 291
     title: Deep learning the slow modes for rare events sampling
@@ -38,12 +38,12 @@ papers:
     title: Transfer learning for atomistic simulations using GNNs and kernel mean embeddings
     year: '2023'
   XPXf728AAAAJ:R3hNpaxXUhUC:
-    citations: 9
+    citations: 10
     title: Weighted active space protocol for multireference machine-learned potentials
     year: '2025'
   XPXf728AAAAJ:RHpTSmoSYBkC:
     citations: 9
-    title: "Coordinated Residue Motions at the Enzyme\u2013Substrate Interface Promote DNA Translocation in Polymerases"
+    title: "Coordinated residue motions at the enzyme\u2013substrate interface promote DNA translocation in polymerases"
     year: '2025'
   XPXf728AAAAJ:TFP_iSt0sucC:
     citations: 2
@@ -54,19 +54,19 @@ papers:
     title: Fast and Fourier features for transfer learning of interatomic potentials
     year: '2025'
   XPXf728AAAAJ:ULOm3_A8WrAC:
-    citations: 48
+    citations: 50
     title: How dynamics changes ammonia cracking on iron surfaces
     year: '2024'
   XPXf728AAAAJ:UeHWp8X0CEIC:
-    citations: 195
+    citations: 192
     title: Silicon Liquid Structure and Crystal Nucleation from Ab Initio Deep Metadynamics
     year: '2018'
   XPXf728AAAAJ:UebtZRa9Y70C:
-    citations: 30
+    citations: 31
     title: Characterizing metastable states with the help of machine learning
     year: '2022'
   XPXf728AAAAJ:W7OEmFMy1HYC:
-    citations: 258
+    citations: 256
     title: Data-driven collective variables for enhanced sampling
     year: '2020'
   XPXf728AAAAJ:WF5omc3nYNoC:
@@ -74,15 +74,15 @@ papers:
     title: Ab-initio machine learning potentials for phase transitions and phase diagrams using enhanced sampling methods
     year: Unknown Year
   XPXf728AAAAJ:Wp0gIr-vW9MC:
-    citations: 36
+    citations: 39
     title: Descriptor-free collective variables from geometric graph neural networks
     year: '2024'
   XPXf728AAAAJ:YOwf2qJgpHMC:
-    citations: 32
+    citations: 33
     title: "How poisoning is avoided in a step of relevance to the Haber\u2013Bosch catalysis"
     year: '2024'
   XPXf728AAAAJ:YsMSGLbcyi4C:
-    citations: 238
+    citations: 240
     title: Ab initio phase diagram and nucleation of gallium
     year: '2020'
   XPXf728AAAAJ:ZeXyd9-uunAC:
@@ -98,7 +98,7 @@ papers:
     title: Training collective variables for enhanced sampling via neural networks based discriminant analysis
     year: '2021'
   XPXf728AAAAJ:_Qo2XoVZTnwC:
-    citations: 7
+    citations: 10
     title: 'No time for nitrides: how cobalt alloying promotes iron catalysts for ammonia decomposition'
     year: '2025'
   XPXf728AAAAJ:_kc_bZDykSQC:
@@ -106,15 +106,15 @@ papers:
     title: Combining transition path sampling with data-driven collective variables through a reactivity-biased shooting algorithm
     year: '2024'
   XPXf728AAAAJ:dhFuZR0502QC:
-    citations: 26
+    citations: 28
     title: 'Advanced simulations with PLUMED: OPES and machine learning collective variables'
     year: '2024'
   XPXf728AAAAJ:e5wmG9Sq2KIC:
-    citations: 8
-    title: Self-Supervised Evolution Operator Learning for High-Dimensional Dynamical Systems
-    year: '2025'
+    citations: 10
+    title: Self-supervised evolution operator learning for high-dimensional dynamical systems
+    year: '2026'
   XPXf728AAAAJ:eQOLeE2rZwMC:
-    citations: 94
+    citations: 95
     title: The role of water in host-guest interaction
     year: '2021'
   XPXf728AAAAJ:hC7cP41nSMkC:
@@ -130,11 +130,11 @@ papers:
     title: 'From trial-and-error to intelligent workflows: machine learning and simulations for scalable 2D material synthesis'
     year: '2026'
   XPXf728AAAAJ:j3f4tGmQtD8C:
-    citations: 0
+    citations: 1
     title: Nitrogen adsorption and dissociation on flat and stepped Fe (110) surfaces
     year: '2025'
   XPXf728AAAAJ:kNdYIx-mwKoC:
-    citations: 119
+    citations: 122
     title: 'The role of dynamics in heterogeneous catalysis: Surface diffusivity and N2 decomposition on Fe(111)'
     year: '2023'
   XPXf728AAAAJ:k_IJM867U9cC:
@@ -158,7 +158,7 @@ papers:
     title: Machine learning and enhanced sampling simulations
     year: '2021'
   XPXf728AAAAJ:ufrVoPGSRksC:
-    citations: 206
+    citations: 208
     title: 'Using metadynamics to build neural network potentials for reactive events: the case of urea decomposition in water'
     year: '2022'
   XPXf728AAAAJ:zYLM7Y9cAGgC:
