@@ -7,7 +7,7 @@ nav: true
 nav_order: 3
 ---
 
-I am a Researcher embedded in the Atomistic Simulations Research Line at IIT in Genova, Italy, where I supervise a sub-group working on machine learning and enhanced sampling techniques for physical, chemical and catalytic simuations.
+I am a Researcher embedded in the Atomistic Simulations Research Line at IIT in Genova, Italy, where I supervise a sub-group working on machine learning and enhanced sampling techniques for physical, chemical and catalytic simulations.
 
 I am open to collaborations with students and researchers interested in these topics!
 
@@ -16,9 +16,10 @@ I am open to collaborations with students and researchers interested in these to
 - <span style="color: var(--global-theme-color)">Matteo Vezzelli</span>, Postdoc (co-supervised with P. Novelli)
 - <span style="color: var(--global-theme-color)">Michele Bianchi</span>, PhD Fellow (co-supervised with G. Cicero)
 - <span style="color: var(--global-theme-color)">Kai Zhu</span>, Visiting PhD (Zhejiang University)
-- <span style="color: var(--global-theme-color)">Guillaume Guiard</span>, Intern (ENS Paris)
+- <span style="color: var(--global-theme-color)">Miquel Alles Coll</span>, Visiting PhD Student
 
 ## Previous 
 
 - <span style="color: var(--global-theme-color)">Simone Perego</span>, PhD Student, 2021-2025
 - <span style="color: var(--global-theme-color)">Line Mouffac</span>, Visiting PhD (Sorbonne), Sep. 2024 March 2025
+- <span style="color: var(--global-theme-color)">Guillaume Guiard</span>, Intern (ENS Paris), March-Aug 2025
