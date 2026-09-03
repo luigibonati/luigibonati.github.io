@@ -84,6 +84,9 @@ ninja.data = [{
           section: "News",},{id: "news-a-new-paper-has-been-accepted-at-iclr",
           title: 'A new paper has been accepted at ICLR!',
           description: "",
+          section: "News",},{id: "news-welcome-to-miquel-visiting-phd-student-from-university-of-barcelona",
+          title: 'Welcome to Miquel, visiting PhD student from University of Barcelona!',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -264,6 +267,11 @@ ninja.data = [{
           description: "CECAM Flagship Workshop",
           section: "Talks",handler: () => {
               window.location.href = "/talks/260615-paris.html";
+            },},{id: "talks-advances-in-pes-exploration-for-complex-materials",
+          title: 'Advances in PES Exploration for Complex Materials',
+          description: "CECAM Flagship Workshop",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/260616-berlin.html";
             },},{
         id: 'social-cv',
         title: 'CV',
