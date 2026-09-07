@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-02'
+  last_updated: '2026-09-07'
 papers:
   XPXf728AAAAJ:0EnyYjriUFMC:
     citations: 83
@@ -14,7 +14,7 @@ papers:
     title: Iron nitride formation and decomposition during ammonia decomposition over a wustite-based bulk iron catalyst
     year: '2024'
   XPXf728AAAAJ:4JMBOYKVnBMC:
-    citations: 73
+    citations: 79
     title: 'Enhanced sampling in the age of machine learning: Algorithms and applications'
     year: '2026'
   XPXf728AAAAJ:7PzlFSSx8tAC:
@@ -22,7 +22,7 @@ papers:
     title: A machine-learning interatomic potential for the Ge2Sb2Te5 phase change compound
     year: '2023'
   XPXf728AAAAJ:IWHjjKOFINEC:
-    citations: 70
+    citations: 71
     title: Data efficient machine learning potentials for modeling catalytic reactivity via active learning and enhanced sampling
     year: '2024'
   XPXf728AAAAJ:L8Ckcad2t8MC:
@@ -58,7 +58,7 @@ papers:
     title: How dynamics changes ammonia cracking on iron surfaces
     year: '2024'
   XPXf728AAAAJ:UeHWp8X0CEIC:
-    citations: 193
+    citations: 194
     title: Silicon Liquid Structure and Crystal Nucleation from Ab Initio Deep Metadynamics
     year: '2018'
   XPXf728AAAAJ:UebtZRa9Y70C:
@@ -66,7 +66,7 @@ papers:
     title: Characterizing metastable states with the help of machine learning
     year: '2022'
   XPXf728AAAAJ:W7OEmFMy1HYC:
-    citations: 263
+    citations: 264
     title: Data-driven collective variables for enhanced sampling
     year: '2020'
   XPXf728AAAAJ:WF5omc3nYNoC:
@@ -82,7 +82,7 @@ papers:
     title: "How poisoning is avoided in a step of relevance to the Haber\u2013Bosch catalysis"
     year: '2024'
   XPXf728AAAAJ:YsMSGLbcyi4C:
-    citations: 242
+    citations: 243
     title: Ab initio phase diagram and nucleation of gallium
     year: '2020'
   XPXf728AAAAJ:ZeXyd9-uunAC:
@@ -134,7 +134,7 @@ papers:
     title: Nitrogen adsorption and dissociation on flat and stepped Fe (110) surfaces
     year: '2025'
   XPXf728AAAAJ:kNdYIx-mwKoC:
-    citations: 125
+    citations: 126
     title: 'The role of dynamics in heterogeneous catalysis: Surface diffusivity and N2 decomposition on Fe(111)'
     year: '2023'
   XPXf728AAAAJ:k_IJM867U9cC:
