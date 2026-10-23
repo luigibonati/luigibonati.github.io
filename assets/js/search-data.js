@@ -87,6 +87,9 @@ ninja.data = [{
           section: "News",},{id: "news-welcome-to-miquel-visiting-phd-student-from-university-of-barcelona",
           title: 'Welcome to Miquel, visiting PhD student from University of Barcelona!',
           description: "",
+          section: "News",},{id: "news-our-roadmap-for-atomistic-modeling-for-electrochemical-reactions-is-out-in-acs-electrochemistry",
+          title: 'Our roadmap for Atomistic Modeling for Electrochemical Reactions is out in ACS Electrochemistry....',
+          description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
           description: "with background image",
@@ -271,7 +274,12 @@ ninja.data = [{
           title: 'Advances in PES Exploration for Complex Materials',
           description: "CECAM Flagship Workshop",
           section: "Talks",handler: () => {
-              window.location.href = "/talks/260616-berlin.html";
+              window.location.href = "/talks/260916-berlin.html";
+            },},{id: "talks-atomistic-modeling-center-seminar-tum",
+          title: 'Atomistic Modeling Center Seminar @ TUM',
+          description: "Atomistic Modeling Center Seminar - TU Munich",
+          section: "Talks",handler: () => {
+              window.location.href = "/talks/261013-munich.html";
             },},{
         id: 'social-cv',
         title: 'CV',
